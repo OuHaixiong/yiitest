@@ -1,0 +1,2044 @@
+2014/02/24 16:31:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login.html".' in E:\www\yiitest\libs\yiiframework\web\CController.php:485
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(271): CController->missingAction('login.html')
+#1 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('login.html')
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('site/login.html')
+#3 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\www\yiitest\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/login.html
+---
+2014/02/24 16:31:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\www\yiitest\libs\yiiframework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\www\yiitest\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/02/24 16:31:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\www\yiitest\libs\yiiframework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\www\yiitest\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/02/24 16:31:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\www\yiitest\libs\yiiframework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\www\yiitest\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/02/24 16:31:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in E:\www\yiitest\libs\yiiframework\web\CController.php:485
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(271): CController->missingAction('')
+#1 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('')
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('')
+#3 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\www\yiitest\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/02/24 16:32:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in E:\www\yiitest\libs\yiiframework\web\CController.php:485
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(271): CController->missingAction('')
+#1 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('')
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('')
+#3 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\www\yiitest\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/02/24 16:32:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login.html".' in E:\www\yiitest\libs\yiiframework\web\CController.php:485
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(271): CController->missingAction('login.html')
+#1 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('login.html')
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('site/login.html')
+#3 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\www\yiitest\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/login.html
+---
+2014/02/24 16:46:11 [error] [php] Missing argument 1 for CModel::getError(), called in E:\www\yiitest\protected\controllers\SiteController.php on line 90 and defined (E:\www\yiitest\libs\yiiframework\base\CModel.php:371)
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams()
+#1 E:\www\yiitest\libs\yiiframework\web\CController.php(287): SiteController->runAction()
+#2 E:\www\yiitest\libs\yiiframework\web\CController.php(266): SiteController->runActionWithFilters()
+#3 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): SiteController->run()
+#4 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 E:\www\yiitest\index.php(13): CWebApplication->run()
+REQUEST_URI=/site/login
+2014/02/24 16:46:13 [error] [php] Missing argument 1 for CModel::getError(), called in E:\www\yiitest\protected\controllers\SiteController.php on line 90 and defined (E:\www\yiitest\libs\yiiframework\base\CModel.php:371)
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams()
+#1 E:\www\yiitest\libs\yiiframework\web\CController.php(287): SiteController->runAction()
+#2 E:\www\yiitest\libs\yiiframework\web\CController.php(266): SiteController->runActionWithFilters()
+#3 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): SiteController->run()
+#4 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 E:\www\yiitest\index.php(13): CWebApplication->run()
+REQUEST_URI=/site/login
+2014/02/24 16:46:14 [error] [php] Missing argument 1 for CModel::getError(), called in E:\www\yiitest\protected\controllers\SiteController.php on line 90 and defined (E:\www\yiitest\libs\yiiframework\base\CModel.php:371)
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams()
+#1 E:\www\yiitest\libs\yiiframework\web\CController.php(287): SiteController->runAction()
+#2 E:\www\yiitest\libs\yiiframework\web\CController.php(266): SiteController->runActionWithFilters()
+#3 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): SiteController->run()
+#4 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 E:\www\yiitest\index.php(13): CWebApplication->run()
+REQUEST_URI=/site/login
+2014/02/24 16:46:15 [error] [php] Missing argument 1 for CModel::getError(), called in E:\www\yiitest\protected\controllers\SiteController.php on line 90 and defined (E:\www\yiitest\libs\yiiframework\base\CModel.php:371)
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams()
+#1 E:\www\yiitest\libs\yiiframework\web\CController.php(287): SiteController->runAction()
+#2 E:\www\yiitest\libs\yiiframework\web\CController.php(266): SiteController->runActionWithFilters()
+#3 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): SiteController->run()
+#4 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 E:\www\yiitest\index.php(13): CWebApplication->run()
+REQUEST_URI=/site/login
+2014/02/24 16:46:29 [error] [php] Missing argument 1 for CModel::getError(), called in E:\www\yiitest\protected\controllers\SiteController.php on line 90 and defined (E:\www\yiitest\libs\yiiframework\base\CModel.php:371)
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams()
+#1 E:\www\yiitest\libs\yiiframework\web\CController.php(287): SiteController->runAction()
+#2 E:\www\yiitest\libs\yiiframework\web\CController.php(266): SiteController->runActionWithFilters()
+#3 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): SiteController->run()
+#4 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 E:\www\yiitest\index.php(13): CWebApplication->run()
+REQUEST_URI=/site/login
+2014/02/24 16:46:30 [error] [php] Missing argument 1 for CModel::getError(), called in E:\www\yiitest\protected\controllers\SiteController.php on line 90 and defined (E:\www\yiitest\libs\yiiframework\base\CModel.php:371)
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams()
+#1 E:\www\yiitest\libs\yiiframework\web\CController.php(287): SiteController->runAction()
+#2 E:\www\yiitest\libs\yiiframework\web\CController.php(266): SiteController->runActionWithFilters()
+#3 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): SiteController->run()
+#4 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 E:\www\yiitest\index.php(13): CWebApplication->run()
+REQUEST_URI=/site/login
+2014/02/24 16:46:31 [error] [php] Missing argument 1 for CModel::getError(), called in E:\www\yiitest\protected\controllers\SiteController.php on line 90 and defined (E:\www\yiitest\libs\yiiframework\base\CModel.php:371)
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams()
+#1 E:\www\yiitest\libs\yiiframework\web\CController.php(287): SiteController->runAction()
+#2 E:\www\yiitest\libs\yiiframework\web\CController.php(266): SiteController->runActionWithFilters()
+#3 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): SiteController->run()
+#4 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 E:\www\yiitest\index.php(13): CWebApplication->run()
+REQUEST_URI=/site/login
+2014/02/24 16:46:47 [error] [php] Missing argument 1 for CModel::getError(), called in E:\www\yiitest\protected\controllers\SiteController.php on line 90 and defined (E:\www\yiitest\libs\yiiframework\base\CModel.php:371)
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams()
+#1 E:\www\yiitest\libs\yiiframework\web\CController.php(287): SiteController->runAction()
+#2 E:\www\yiitest\libs\yiiframework\web\CController.php(266): SiteController->runActionWithFilters()
+#3 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): SiteController->run()
+#4 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 E:\www\yiitest\index.php(13): CWebApplication->run()
+REQUEST_URI=/site/login
+2014/02/24 16:46:51 [error] [php] Missing argument 1 for CModel::getError(), called in E:\www\yiitest\protected\controllers\SiteController.php on line 90 and defined (E:\www\yiitest\libs\yiiframework\base\CModel.php:371)
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams()
+#1 E:\www\yiitest\libs\yiiframework\web\CController.php(287): SiteController->runAction()
+#2 E:\www\yiitest\libs\yiiframework\web\CController.php(266): SiteController->runActionWithFilters()
+#3 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): SiteController->run()
+#4 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 E:\www\yiitest\index.php(13): CWebApplication->run()
+REQUEST_URI=/site/login
+2014/03/05 17:31:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in E:\www\yiitest\libs\yiiframework\web\CController.php:485
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(271): CController->missingAction('')
+#1 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('')
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('')
+#3 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\www\yiitest\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/03/05 17:31:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\www\yiitest\libs\yiiframework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\www\yiitest\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/03/05 17:31:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\www\yiitest\libs\yiiframework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\www\yiitest\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/03/05 17:31:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\www\yiitest\libs\yiiframework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\www\yiitest\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/03/05 17:32:01 [error] [exception.CDbException] SQLSTATE[42000] [1049] Unknown database 'YiiTest'
+2014/03/05 17:32:01 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in E:\www\yiitest\libs\yiiframework\db\CDbConnection.php:388
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\db\CDbConnection.php(330): CDbConnection->open()
+#1 E:\www\yiitest\libs\yiiframework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 E:\www\yiitest\libs\yiiframework\base\CModule.php(387): CDbConnection->init()
+#3 E:\www\yiitest\libs\yiiframework\base\CApplication.php(450): CModule->getComponent('db')
+#4 E:\www\yiitest\libs\yiiframework\db\ar\CActiveRecord.php(634): CApplication->getDb()
+#5 E:\www\yiitest\libs\yiiframework\db\ar\CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 E:\www\yiitest\libs\yiiframework\db\ar\CActiveRecord.php(1455): CActiveRecord->getCommandBuilder()
+#7 E:\www\yiitest\protected\components\UserIdentity.php(19): CActiveRecord->find('LOWER(username)...', Array)
+#8 E:\www\yiitest\protected\models\LoginForm.php(45): UserIdentity->authenticate()
+#9 E:\www\yiitest\libs\yiiframework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#10 E:\www\yiitest\libs\yiiframework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#11 E:\www\yiitest\libs\yiiframework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#12 E:\www\yiitest\protected\controllers\SiteController.php(89): CModel->validate()
+#13 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#14 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#15 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#16 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('login')
+#18 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('site/login')
+#19 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 E:\www\yiitest\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/site/login
+HTTP_REFERER=http://yiitest.com/site/login
+---
+2014/03/06 09:56:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in E:\www\yiitest\libs\yiiframework\web\CController.php:485
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(271): CController->missingAction('')
+#1 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('')
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('')
+#3 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\www\yiitest\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/03/06 09:56:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in E:\www\yiitest\libs\yiiframework\web\CController.php:485
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(271): CController->missingAction('index')
+#1 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('index')
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('post/index')
+#3 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\www\yiitest\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/post/index
+HTTP_REFERER=http://yiitest.com/
+---
+2014/03/10 09:36:04 [error] [exception.CDbException] SQLSTATE[42000] [1049] Unknown database 'YiiTest'
+2014/03/10 09:36:04 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in E:\www\yiitest\libs\yiiframework\db\CDbConnection.php:388
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\db\CDbConnection.php(330): CDbConnection->open()
+#1 E:\www\yiitest\libs\yiiframework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 E:\www\yiitest\libs\yiiframework\base\CModule.php(387): CDbConnection->init()
+#3 E:\www\yiitest\libs\yiiframework\base\CModule.php(103): CModule->getComponent('db')
+#4 E:\www\yiitest\protected\controllers\DbController.php(10): CModule->__get('db')
+#5 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): DbController->actionTest()
+#6 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#7 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#8 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#10 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('db/test')
+#11 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 E:\www\yiitest\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/db/test
+---
+2014/03/10 09:36:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\www\yiitest\libs\yiiframework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\www\yiitest\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/03/10 09:36:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\www\yiitest\libs\yiiframework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\www\yiitest\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/03/10 09:36:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\www\yiitest\libs\yiiframework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\www\yiitest\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/03/10 09:38:10 [error] [exception.CDbException] SQLSTATE[42000] [1049] Unknown database 'YiiTest'
+2014/03/10 09:38:10 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in E:\www\yiitest\libs\yiiframework\db\CDbConnection.php:388
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\db\CDbConnection.php(330): CDbConnection->open()
+#1 E:\www\yiitest\libs\yiiframework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 E:\www\yiitest\libs\yiiframework\base\CModule.php(387): CDbConnection->init()
+#3 E:\www\yiitest\libs\yiiframework\base\CModule.php(103): CModule->getComponent('db')
+#4 E:\www\yiitest\protected\controllers\DbController.php(13): CModule->__get('db')
+#5 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): DbController->actionTest()
+#6 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#7 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#8 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#10 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('db/test')
+#11 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 E:\www\yiitest\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/db/test
+---
+2014/03/10 09:49:23 [error] [exception.CDbException] SQLSTATE[42000] [1049] Unknown database 'YiiTedst'
+2014/03/10 09:49:23 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in E:\www\yiitest\libs\yiiframework\db\CDbConnection.php:388
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\db\CDbConnection.php(330): CDbConnection->open()
+#1 E:\www\yiitest\libs\yiiframework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 E:\www\yiitest\libs\yiiframework\base\CModule.php(387): CDbConnection->init()
+#3 E:\www\yiitest\libs\yiiframework\base\CModule.php(103): CModule->getComponent('db')
+#4 E:\www\yiitest\protected\controllers\DbController.php(13): CModule->__get('db')
+#5 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): DbController->actionTest()
+#6 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#7 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#8 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#10 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('db/test')
+#11 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 E:\www\yiitest\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/db/test
+---
+2014/03/10 11:20:28 [error] [exception.CDbException] SQLSTATE[42000] [1049] Unknown database 'YiidTest'
+2014/03/10 11:20:28 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in E:\www\yiitest\libs\yiiframework\db\CDbConnection.php:388
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\db\CDbConnection.php(330): CDbConnection->open()
+#1 E:\www\yiitest\libs\yiiframework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 E:\www\yiitest\libs\yiiframework\base\CModule.php(387): CDbConnection->init()
+#3 E:\www\yiitest\libs\yiiframework\base\CModule.php(103): CModule->getComponent('db')
+#4 E:\www\yiitest\protected\controllers\DbController.php(13): CModule->__get('db')
+#5 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): DbController->actionTest()
+#6 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#7 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#8 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#10 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('db/test')
+#11 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 E:\www\yiitest\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/db/test
+---
+2014/03/10 11:20:29 [error] [exception.CDbException] SQLSTATE[42000] [1049] Unknown database 'YiidTest'
+2014/03/10 11:20:29 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in E:\www\yiitest\libs\yiiframework\db\CDbConnection.php:388
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\db\CDbConnection.php(330): CDbConnection->open()
+#1 E:\www\yiitest\libs\yiiframework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 E:\www\yiitest\libs\yiiframework\base\CModule.php(387): CDbConnection->init()
+#3 E:\www\yiitest\libs\yiiframework\base\CModule.php(103): CModule->getComponent('db')
+#4 E:\www\yiitest\protected\controllers\DbController.php(13): CModule->__get('db')
+#5 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): DbController->actionTest()
+#6 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#7 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#8 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#10 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('db/test')
+#11 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 E:\www\yiitest\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/db/test
+---
+2014/03/10 11:20:37 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[42000] [1049] Unknown database 'YiidTest'' in E:\www\yiitest\libs\yiiframework\db\CDbConnection.php:382
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\db\CDbConnection.php(330): CDbConnection->open()
+#1 E:\www\yiitest\libs\yiiframework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 E:\www\yiitest\libs\yiiframework\base\CModule.php(387): CDbConnection->init()
+#3 E:\www\yiitest\libs\yiiframework\base\CModule.php(103): CModule->getComponent('db')
+#4 E:\www\yiitest\protected\controllers\DbController.php(13): CModule->__get('db')
+#5 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): DbController->actionTest()
+#6 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#7 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#8 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#10 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('db/test')
+#11 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 E:\www\yiitest\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/db/test
+---
+2014/03/10 11:21:04 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[42000] [1049] Unknown database 'YiidTest'' in E:\www\yiitest\libs\yiiframework\db\CDbConnection.php:382
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\db\CDbConnection.php(330): CDbConnection->open()
+#1 E:\www\yiitest\libs\yiiframework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 E:\www\yiitest\libs\yiiframework\base\CModule.php(387): CDbConnection->init()
+#3 E:\www\yiitest\libs\yiiframework\base\CModule.php(103): CModule->getComponent('db')
+#4 E:\www\yiitest\protected\controllers\DbController.php(13): CModule->__get('db')
+#5 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): DbController->actionTest()
+#6 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#7 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#8 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#10 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('db/test')
+#11 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 E:\www\yiitest\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/db/test
+---
+2014/03/10 11:21:08 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[42000] [1049] Unknown database 'YiidTest'' in E:\www\yiitest\libs\yiiframework\db\CDbConnection.php:382
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\db\CDbConnection.php(330): CDbConnection->open()
+#1 E:\www\yiitest\libs\yiiframework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 E:\www\yiitest\libs\yiiframework\base\CModule.php(387): CDbConnection->init()
+#3 E:\www\yiitest\libs\yiiframework\base\CModule.php(103): CModule->getComponent('db')
+#4 E:\www\yiitest\protected\controllers\DbController.php(13): CModule->__get('db')
+#5 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): DbController->actionTest()
+#6 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#7 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#8 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#10 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('db/test')
+#11 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 E:\www\yiitest\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/db/test
+---
+2014/03/24 20:45:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\www\yiitest\libs\yiiframework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\www\yiitest\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/03/24 20:45:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\www\yiitest\libs\yiiframework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\www\yiitest\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/03/24 20:45:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\www\yiitest\libs\yiiframework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\www\yiitest\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/03/25 09:27:26 [error] [exception.CException] exception 'CException' with message 'Event "PageController.onAfter" is not defined.' in E:\www\yiitest\libs\yiiframework\base\CComponent.php:478
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\base\CComponent.php(516): CComponent->getEventHandlers('onAfter')
+#1 E:\www\yiitest\protected\controllers\PageController.php(45): CComponent->attachEventHandler('onAfter', Array)
+#2 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): PageController->actionTest()
+#3 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#7 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('page/test')
+#8 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\www\yiitest\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/page/test
+---
+2014/03/25 09:27:27 [error] [exception.CException] exception 'CException' with message 'Event "PageController.onAfter" is not defined.' in E:\www\yiitest\libs\yiiframework\base\CComponent.php:478
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\base\CComponent.php(516): CComponent->getEventHandlers('onAfter')
+#1 E:\www\yiitest\protected\controllers\PageController.php(45): CComponent->attachEventHandler('onAfter', Array)
+#2 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): PageController->actionTest()
+#3 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#7 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('page/test')
+#8 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\www\yiitest\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/page/test
+---
+2014/03/25 09:27:28 [error] [exception.CException] exception 'CException' with message 'Event "PageController.onAfter" is not defined.' in E:\www\yiitest\libs\yiiframework\base\CComponent.php:478
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\base\CComponent.php(516): CComponent->getEventHandlers('onAfter')
+#1 E:\www\yiitest\protected\controllers\PageController.php(45): CComponent->attachEventHandler('onAfter', Array)
+#2 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): PageController->actionTest()
+#3 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#7 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('page/test')
+#8 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\www\yiitest\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/page/test
+---
+2014/03/25 09:27:29 [error] [exception.CException] exception 'CException' with message 'Event "PageController.onAfter" is not defined.' in E:\www\yiitest\libs\yiiframework\base\CComponent.php:478
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\base\CComponent.php(516): CComponent->getEventHandlers('onAfter')
+#1 E:\www\yiitest\protected\controllers\PageController.php(45): CComponent->attachEventHandler('onAfter', Array)
+#2 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): PageController->actionTest()
+#3 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#7 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('page/test')
+#8 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\www\yiitest\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/page/test
+---
+2014/03/25 09:27:29 [error] [exception.CException] exception 'CException' with message 'Event "PageController.onAfter" is not defined.' in E:\www\yiitest\libs\yiiframework\base\CComponent.php:478
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\base\CComponent.php(516): CComponent->getEventHandlers('onAfter')
+#1 E:\www\yiitest\protected\controllers\PageController.php(45): CComponent->attachEventHandler('onAfter', Array)
+#2 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): PageController->actionTest()
+#3 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#7 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('page/test')
+#8 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\www\yiitest\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/page/test
+---
+2014/03/25 09:27:29 [error] [exception.CException] exception 'CException' with message 'Event "PageController.onAfter" is not defined.' in E:\www\yiitest\libs\yiiframework\base\CComponent.php:478
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\base\CComponent.php(516): CComponent->getEventHandlers('onAfter')
+#1 E:\www\yiitest\protected\controllers\PageController.php(45): CComponent->attachEventHandler('onAfter', Array)
+#2 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): PageController->actionTest()
+#3 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#7 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('page/test')
+#8 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\www\yiitest\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/page/test
+---
+2014/03/25 09:27:29 [error] [exception.CException] exception 'CException' with message 'Event "PageController.onAfter" is not defined.' in E:\www\yiitest\libs\yiiframework\base\CComponent.php:478
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\base\CComponent.php(516): CComponent->getEventHandlers('onAfter')
+#1 E:\www\yiitest\protected\controllers\PageController.php(45): CComponent->attachEventHandler('onAfter', Array)
+#2 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): PageController->actionTest()
+#3 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#7 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('page/test')
+#8 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\www\yiitest\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/page/test
+---
+2014/03/25 09:27:30 [error] [exception.CException] exception 'CException' with message 'Event "PageController.onAfter" is not defined.' in E:\www\yiitest\libs\yiiframework\base\CComponent.php:478
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\base\CComponent.php(516): CComponent->getEventHandlers('onAfter')
+#1 E:\www\yiitest\protected\controllers\PageController.php(45): CComponent->attachEventHandler('onAfter', Array)
+#2 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): PageController->actionTest()
+#3 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#7 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('page/test')
+#8 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\www\yiitest\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/page/test
+---
+2014/03/25 09:27:30 [error] [exception.CException] exception 'CException' with message 'Event "PageController.onAfter" is not defined.' in E:\www\yiitest\libs\yiiframework\base\CComponent.php:478
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\base\CComponent.php(516): CComponent->getEventHandlers('onAfter')
+#1 E:\www\yiitest\protected\controllers\PageController.php(45): CComponent->attachEventHandler('onAfter', Array)
+#2 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): PageController->actionTest()
+#3 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#7 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('page/test')
+#8 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\www\yiitest\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/page/test
+---
+2014/03/25 09:27:30 [error] [exception.CException] exception 'CException' with message 'Event "PageController.onAfter" is not defined.' in E:\www\yiitest\libs\yiiframework\base\CComponent.php:478
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\base\CComponent.php(516): CComponent->getEventHandlers('onAfter')
+#1 E:\www\yiitest\protected\controllers\PageController.php(45): CComponent->attachEventHandler('onAfter', Array)
+#2 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): PageController->actionTest()
+#3 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#7 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('page/test')
+#8 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\www\yiitest\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/page/test
+---
+2014/03/25 09:27:31 [error] [exception.CException] exception 'CException' with message 'Event "PageController.onAfter" is not defined.' in E:\www\yiitest\libs\yiiframework\base\CComponent.php:478
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\base\CComponent.php(516): CComponent->getEventHandlers('onAfter')
+#1 E:\www\yiitest\protected\controllers\PageController.php(45): CComponent->attachEventHandler('onAfter', Array)
+#2 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): PageController->actionTest()
+#3 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#7 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('page/test')
+#8 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\www\yiitest\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/page/test
+---
+2014/03/25 09:27:31 [error] [exception.CException] exception 'CException' with message 'Event "PageController.onAfter" is not defined.' in E:\www\yiitest\libs\yiiframework\base\CComponent.php:478
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\base\CComponent.php(516): CComponent->getEventHandlers('onAfter')
+#1 E:\www\yiitest\protected\controllers\PageController.php(45): CComponent->attachEventHandler('onAfter', Array)
+#2 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): PageController->actionTest()
+#3 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#7 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('page/test')
+#8 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\www\yiitest\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/page/test
+---
+2014/03/25 09:27:31 [error] [exception.CException] exception 'CException' with message 'Event "PageController.onAfter" is not defined.' in E:\www\yiitest\libs\yiiframework\base\CComponent.php:478
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\base\CComponent.php(516): CComponent->getEventHandlers('onAfter')
+#1 E:\www\yiitest\protected\controllers\PageController.php(45): CComponent->attachEventHandler('onAfter', Array)
+#2 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): PageController->actionTest()
+#3 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#7 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('page/test')
+#8 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\www\yiitest\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/page/test
+---
+2014/03/25 09:27:31 [error] [exception.CException] exception 'CException' with message 'Event "PageController.onAfter" is not defined.' in E:\www\yiitest\libs\yiiframework\base\CComponent.php:478
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\base\CComponent.php(516): CComponent->getEventHandlers('onAfter')
+#1 E:\www\yiitest\protected\controllers\PageController.php(45): CComponent->attachEventHandler('onAfter', Array)
+#2 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): PageController->actionTest()
+#3 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#7 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('page/test')
+#8 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\www\yiitest\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/page/test
+---
+2014/03/25 09:27:31 [error] [exception.CException] exception 'CException' with message 'Event "PageController.onAfter" is not defined.' in E:\www\yiitest\libs\yiiframework\base\CComponent.php:478
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\base\CComponent.php(516): CComponent->getEventHandlers('onAfter')
+#1 E:\www\yiitest\protected\controllers\PageController.php(45): CComponent->attachEventHandler('onAfter', Array)
+#2 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): PageController->actionTest()
+#3 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#7 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('page/test')
+#8 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\www\yiitest\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/page/test
+---
+2014/03/25 09:27:32 [error] [exception.CException] exception 'CException' with message 'Event "PageController.onAfter" is not defined.' in E:\www\yiitest\libs\yiiframework\base\CComponent.php:478
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\base\CComponent.php(516): CComponent->getEventHandlers('onAfter')
+#1 E:\www\yiitest\protected\controllers\PageController.php(45): CComponent->attachEventHandler('onAfter', Array)
+#2 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): PageController->actionTest()
+#3 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#7 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('page/test')
+#8 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\www\yiitest\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/page/test
+---
+2014/03/25 09:27:32 [error] [exception.CException] exception 'CException' with message 'Event "PageController.onAfter" is not defined.' in E:\www\yiitest\libs\yiiframework\base\CComponent.php:478
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\base\CComponent.php(516): CComponent->getEventHandlers('onAfter')
+#1 E:\www\yiitest\protected\controllers\PageController.php(45): CComponent->attachEventHandler('onAfter', Array)
+#2 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): PageController->actionTest()
+#3 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#7 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('page/test')
+#8 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\www\yiitest\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/page/test
+---
+2014/03/25 09:27:32 [error] [exception.CException] exception 'CException' with message 'Event "PageController.onAfter" is not defined.' in E:\www\yiitest\libs\yiiframework\base\CComponent.php:478
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\base\CComponent.php(516): CComponent->getEventHandlers('onAfter')
+#1 E:\www\yiitest\protected\controllers\PageController.php(45): CComponent->attachEventHandler('onAfter', Array)
+#2 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): PageController->actionTest()
+#3 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#7 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('page/test')
+#8 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\www\yiitest\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/page/test
+---
+2014/03/25 09:27:51 [error] [exception.CException] exception 'CException' with message 'Event "PageController.onAfter" is not defined.' in E:\www\yiitest\libs\yiiframework\base\CComponent.php:478
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\base\CComponent.php(516): CComponent->getEventHandlers('onAfter')
+#1 E:\www\yiitest\protected\controllers\PageController.php(45): CComponent->attachEventHandler('onAfter', Array)
+#2 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): PageController->actionTest()
+#3 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#7 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('page/test')
+#8 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\www\yiitest\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/page/test
+---
+2014/03/25 09:27:52 [error] [exception.CException] exception 'CException' with message 'Event "PageController.onAfter" is not defined.' in E:\www\yiitest\libs\yiiframework\base\CComponent.php:478
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\base\CComponent.php(516): CComponent->getEventHandlers('onAfter')
+#1 E:\www\yiitest\protected\controllers\PageController.php(45): CComponent->attachEventHandler('onAfter', Array)
+#2 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): PageController->actionTest()
+#3 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#7 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('page/test')
+#8 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\www\yiitest\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/page/test
+---
+2014/03/25 09:27:53 [error] [exception.CException] exception 'CException' with message 'Event "PageController.onAfter" is not defined.' in E:\www\yiitest\libs\yiiframework\base\CComponent.php:478
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\base\CComponent.php(516): CComponent->getEventHandlers('onAfter')
+#1 E:\www\yiitest\protected\controllers\PageController.php(45): CComponent->attachEventHandler('onAfter', Array)
+#2 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): PageController->actionTest()
+#3 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#7 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('page/test')
+#8 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\www\yiitest\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/page/test
+---
+2014/03/25 09:27:54 [error] [exception.CException] exception 'CException' with message 'Event "PageController.onAfter" is not defined.' in E:\www\yiitest\libs\yiiframework\base\CComponent.php:478
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\base\CComponent.php(516): CComponent->getEventHandlers('onAfter')
+#1 E:\www\yiitest\protected\controllers\PageController.php(45): CComponent->attachEventHandler('onAfter', Array)
+#2 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): PageController->actionTest()
+#3 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#7 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('page/test')
+#8 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\www\yiitest\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/page/test
+---
+2014/03/25 09:27:54 [error] [exception.CException] exception 'CException' with message 'Event "PageController.onAfter" is not defined.' in E:\www\yiitest\libs\yiiframework\base\CComponent.php:478
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\base\CComponent.php(516): CComponent->getEventHandlers('onAfter')
+#1 E:\www\yiitest\protected\controllers\PageController.php(45): CComponent->attachEventHandler('onAfter', Array)
+#2 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): PageController->actionTest()
+#3 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#7 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('page/test')
+#8 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\www\yiitest\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/page/test
+---
+2014/03/25 09:27:54 [error] [exception.CException] exception 'CException' with message 'Event "PageController.onAfter" is not defined.' in E:\www\yiitest\libs\yiiframework\base\CComponent.php:478
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\base\CComponent.php(516): CComponent->getEventHandlers('onAfter')
+#1 E:\www\yiitest\protected\controllers\PageController.php(45): CComponent->attachEventHandler('onAfter', Array)
+#2 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): PageController->actionTest()
+#3 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#7 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('page/test')
+#8 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\www\yiitest\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/page/test
+---
+2014/03/25 09:27:54 [error] [exception.CException] exception 'CException' with message 'Event "PageController.onAfter" is not defined.' in E:\www\yiitest\libs\yiiframework\base\CComponent.php:478
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\base\CComponent.php(516): CComponent->getEventHandlers('onAfter')
+#1 E:\www\yiitest\protected\controllers\PageController.php(45): CComponent->attachEventHandler('onAfter', Array)
+#2 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): PageController->actionTest()
+#3 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#7 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('page/test')
+#8 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\www\yiitest\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/page/test
+---
+2014/03/25 09:28:07 [error] [exception.CException] exception 'CException' with message 'Event "PageController.onAfter" is not defined.' in E:\www\yiitest\libs\yiiframework\base\CComponent.php:478
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\base\CComponent.php(516): CComponent->getEventHandlers('onAfter')
+#1 E:\www\yiitest\protected\controllers\PageController.php(45): CComponent->attachEventHandler('onAfter', Array)
+#2 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): PageController->actionTest()
+#3 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#7 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('page/test')
+#8 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\www\yiitest\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/page/test
+---
+2014/03/25 09:28:08 [error] [exception.CException] exception 'CException' with message 'Event "PageController.onAfter" is not defined.' in E:\www\yiitest\libs\yiiframework\base\CComponent.php:478
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\base\CComponent.php(516): CComponent->getEventHandlers('onAfter')
+#1 E:\www\yiitest\protected\controllers\PageController.php(45): CComponent->attachEventHandler('onAfter', Array)
+#2 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): PageController->actionTest()
+#3 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#7 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('page/test')
+#8 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\www\yiitest\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/page/test
+---
+2014/03/25 09:28:08 [error] [exception.CException] exception 'CException' with message 'Event "PageController.onAfter" is not defined.' in E:\www\yiitest\libs\yiiframework\base\CComponent.php:478
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\base\CComponent.php(516): CComponent->getEventHandlers('onAfter')
+#1 E:\www\yiitest\protected\controllers\PageController.php(45): CComponent->attachEventHandler('onAfter', Array)
+#2 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): PageController->actionTest()
+#3 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#7 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('page/test')
+#8 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\www\yiitest\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/page/test
+---
+2014/03/25 09:28:08 [error] [exception.CException] exception 'CException' with message 'Event "PageController.onAfter" is not defined.' in E:\www\yiitest\libs\yiiframework\base\CComponent.php:478
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\base\CComponent.php(516): CComponent->getEventHandlers('onAfter')
+#1 E:\www\yiitest\protected\controllers\PageController.php(45): CComponent->attachEventHandler('onAfter', Array)
+#2 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): PageController->actionTest()
+#3 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#7 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('page/test')
+#8 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\www\yiitest\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/page/test
+---
+2014/03/25 09:28:09 [error] [exception.CException] exception 'CException' with message 'Event "PageController.onAfter" is not defined.' in E:\www\yiitest\libs\yiiframework\base\CComponent.php:478
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\base\CComponent.php(516): CComponent->getEventHandlers('onAfter')
+#1 E:\www\yiitest\protected\controllers\PageController.php(45): CComponent->attachEventHandler('onAfter', Array)
+#2 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): PageController->actionTest()
+#3 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#7 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('page/test')
+#8 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\www\yiitest\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/page/test
+---
+2014/03/25 09:28:09 [error] [exception.CException] exception 'CException' with message 'Event "PageController.onAfter" is not defined.' in E:\www\yiitest\libs\yiiframework\base\CComponent.php:478
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\base\CComponent.php(516): CComponent->getEventHandlers('onAfter')
+#1 E:\www\yiitest\protected\controllers\PageController.php(45): CComponent->attachEventHandler('onAfter', Array)
+#2 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): PageController->actionTest()
+#3 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#7 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('page/test')
+#8 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\www\yiitest\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/page/test
+---
+2014/03/25 09:28:09 [error] [exception.CException] exception 'CException' with message 'Event "PageController.onAfter" is not defined.' in E:\www\yiitest\libs\yiiframework\base\CComponent.php:478
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\base\CComponent.php(516): CComponent->getEventHandlers('onAfter')
+#1 E:\www\yiitest\protected\controllers\PageController.php(45): CComponent->attachEventHandler('onAfter', Array)
+#2 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): PageController->actionTest()
+#3 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#7 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('page/test')
+#8 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\www\yiitest\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/page/test
+---
+2014/03/25 09:28:09 [error] [exception.CException] exception 'CException' with message 'Event "PageController.onAfter" is not defined.' in E:\www\yiitest\libs\yiiframework\base\CComponent.php:478
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\base\CComponent.php(516): CComponent->getEventHandlers('onAfter')
+#1 E:\www\yiitest\protected\controllers\PageController.php(45): CComponent->attachEventHandler('onAfter', Array)
+#2 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): PageController->actionTest()
+#3 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#7 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('page/test')
+#8 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\www\yiitest\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/page/test
+---
+2014/03/25 09:28:10 [error] [exception.CException] exception 'CException' with message 'Event "PageController.onAfter" is not defined.' in E:\www\yiitest\libs\yiiframework\base\CComponent.php:478
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\base\CComponent.php(516): CComponent->getEventHandlers('onAfter')
+#1 E:\www\yiitest\protected\controllers\PageController.php(45): CComponent->attachEventHandler('onAfter', Array)
+#2 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): PageController->actionTest()
+#3 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#7 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('page/test')
+#8 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\www\yiitest\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/page/test
+---
+2014/03/25 09:28:10 [error] [exception.CException] exception 'CException' with message 'Event "PageController.onAfter" is not defined.' in E:\www\yiitest\libs\yiiframework\base\CComponent.php:478
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\base\CComponent.php(516): CComponent->getEventHandlers('onAfter')
+#1 E:\www\yiitest\protected\controllers\PageController.php(45): CComponent->attachEventHandler('onAfter', Array)
+#2 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): PageController->actionTest()
+#3 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#7 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('page/test')
+#8 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\www\yiitest\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/page/test
+---
+2014/03/25 09:28:10 [error] [exception.CException] exception 'CException' with message 'Event "PageController.onAfter" is not defined.' in E:\www\yiitest\libs\yiiframework\base\CComponent.php:478
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\base\CComponent.php(516): CComponent->getEventHandlers('onAfter')
+#1 E:\www\yiitest\protected\controllers\PageController.php(45): CComponent->attachEventHandler('onAfter', Array)
+#2 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): PageController->actionTest()
+#3 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#7 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('page/test')
+#8 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\www\yiitest\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/page/test
+---
+2014/03/25 09:28:10 [error] [exception.CException] exception 'CException' with message 'Event "PageController.onAfter" is not defined.' in E:\www\yiitest\libs\yiiframework\base\CComponent.php:478
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\base\CComponent.php(516): CComponent->getEventHandlers('onAfter')
+#1 E:\www\yiitest\protected\controllers\PageController.php(45): CComponent->attachEventHandler('onAfter', Array)
+#2 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): PageController->actionTest()
+#3 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#7 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('page/test')
+#8 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\www\yiitest\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/page/test
+---
+2014/03/25 09:28:11 [error] [exception.CException] exception 'CException' with message 'Event "PageController.onAfter" is not defined.' in E:\www\yiitest\libs\yiiframework\base\CComponent.php:478
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\base\CComponent.php(516): CComponent->getEventHandlers('onAfter')
+#1 E:\www\yiitest\protected\controllers\PageController.php(45): CComponent->attachEventHandler('onAfter', Array)
+#2 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): PageController->actionTest()
+#3 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#7 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('page/test')
+#8 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\www\yiitest\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/page/test
+---
+2014/03/25 09:28:32 [error] [exception.CException] exception 'CException' with message 'Event "PageController.onAfter" is not defined.' in E:\www\yiitest\libs\yiiframework\base\CComponent.php:478
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\base\CComponent.php(516): CComponent->getEventHandlers('onAfter')
+#1 E:\www\yiitest\protected\controllers\PageController.php(45): CComponent->attachEventHandler('onAfter', Array)
+#2 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): PageController->actionTest()
+#3 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#7 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('page/test')
+#8 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\www\yiitest\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/page/test
+---
+2014/03/25 09:28:33 [error] [exception.CException] exception 'CException' with message 'Event "PageController.onAfter" is not defined.' in E:\www\yiitest\libs\yiiframework\base\CComponent.php:478
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\base\CComponent.php(516): CComponent->getEventHandlers('onAfter')
+#1 E:\www\yiitest\protected\controllers\PageController.php(45): CComponent->attachEventHandler('onAfter', Array)
+#2 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): PageController->actionTest()
+#3 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#7 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('page/test')
+#8 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\www\yiitest\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/page/test
+---
+2014/03/25 09:28:34 [error] [exception.CException] exception 'CException' with message 'Event "PageController.onAfter" is not defined.' in E:\www\yiitest\libs\yiiframework\base\CComponent.php:478
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\base\CComponent.php(516): CComponent->getEventHandlers('onAfter')
+#1 E:\www\yiitest\protected\controllers\PageController.php(45): CComponent->attachEventHandler('onAfter', Array)
+#2 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): PageController->actionTest()
+#3 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#7 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('page/test')
+#8 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\www\yiitest\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/page/test
+---
+2014/03/25 09:29:03 [error] [exception.CException] exception 'CException' with message 'Event "PageController.onAfter" is not defined.' in E:\www\yiitest\libs\yiiframework\base\CComponent.php:478
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\base\CComponent.php(516): CComponent->getEventHandlers('onAfter')
+#1 E:\www\yiitest\protected\controllers\PageController.php(45): CComponent->attachEventHandler('onAfter', Array)
+#2 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): PageController->actionTest()
+#3 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#7 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('page/test')
+#8 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\www\yiitest\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/page/test
+---
+2014/03/25 09:29:04 [error] [exception.CException] exception 'CException' with message 'Event "PageController.onAfter" is not defined.' in E:\www\yiitest\libs\yiiframework\base\CComponent.php:478
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\base\CComponent.php(516): CComponent->getEventHandlers('onAfter')
+#1 E:\www\yiitest\protected\controllers\PageController.php(45): CComponent->attachEventHandler('onAfter', Array)
+#2 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): PageController->actionTest()
+#3 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#7 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('page/test')
+#8 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\www\yiitest\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/page/test
+---
+2014/03/25 09:29:05 [error] [exception.CException] exception 'CException' with message 'Event "PageController.onAfter" is not defined.' in E:\www\yiitest\libs\yiiframework\base\CComponent.php:478
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\base\CComponent.php(516): CComponent->getEventHandlers('onAfter')
+#1 E:\www\yiitest\protected\controllers\PageController.php(45): CComponent->attachEventHandler('onAfter', Array)
+#2 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): PageController->actionTest()
+#3 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#7 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('page/test')
+#8 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\www\yiitest\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/page/test
+---
+2014/03/25 09:29:05 [error] [exception.CException] exception 'CException' with message 'Event "PageController.onAfter" is not defined.' in E:\www\yiitest\libs\yiiframework\base\CComponent.php:478
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\base\CComponent.php(516): CComponent->getEventHandlers('onAfter')
+#1 E:\www\yiitest\protected\controllers\PageController.php(45): CComponent->attachEventHandler('onAfter', Array)
+#2 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): PageController->actionTest()
+#3 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#7 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('page/test')
+#8 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\www\yiitest\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/page/test
+---
+2014/03/25 09:29:06 [error] [exception.CException] exception 'CException' with message 'Event "PageController.onAfter" is not defined.' in E:\www\yiitest\libs\yiiframework\base\CComponent.php:478
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\base\CComponent.php(516): CComponent->getEventHandlers('onAfter')
+#1 E:\www\yiitest\protected\controllers\PageController.php(45): CComponent->attachEventHandler('onAfter', Array)
+#2 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): PageController->actionTest()
+#3 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#7 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('page/test')
+#8 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\www\yiitest\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/page/test
+---
+2014/03/25 09:29:06 [error] [exception.CException] exception 'CException' with message 'Event "PageController.onAfter" is not defined.' in E:\www\yiitest\libs\yiiframework\base\CComponent.php:478
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\base\CComponent.php(516): CComponent->getEventHandlers('onAfter')
+#1 E:\www\yiitest\protected\controllers\PageController.php(45): CComponent->attachEventHandler('onAfter', Array)
+#2 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): PageController->actionTest()
+#3 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#7 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('page/test')
+#8 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\www\yiitest\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/page/test
+---
+2014/03/25 09:29:06 [error] [exception.CException] exception 'CException' with message 'Event "PageController.onAfter" is not defined.' in E:\www\yiitest\libs\yiiframework\base\CComponent.php:478
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\base\CComponent.php(516): CComponent->getEventHandlers('onAfter')
+#1 E:\www\yiitest\protected\controllers\PageController.php(45): CComponent->attachEventHandler('onAfter', Array)
+#2 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): PageController->actionTest()
+#3 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#7 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('page/test')
+#8 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\www\yiitest\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/page/test
+---
+2014/03/25 09:29:06 [error] [exception.CException] exception 'CException' with message 'Event "PageController.onAfter" is not defined.' in E:\www\yiitest\libs\yiiframework\base\CComponent.php:478
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\base\CComponent.php(516): CComponent->getEventHandlers('onAfter')
+#1 E:\www\yiitest\protected\controllers\PageController.php(45): CComponent->attachEventHandler('onAfter', Array)
+#2 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): PageController->actionTest()
+#3 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#7 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('page/test')
+#8 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\www\yiitest\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/page/test
+---
+2014/03/25 09:29:07 [error] [exception.CException] exception 'CException' with message 'Event "PageController.onAfter" is not defined.' in E:\www\yiitest\libs\yiiframework\base\CComponent.php:478
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\base\CComponent.php(516): CComponent->getEventHandlers('onAfter')
+#1 E:\www\yiitest\protected\controllers\PageController.php(45): CComponent->attachEventHandler('onAfter', Array)
+#2 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): PageController->actionTest()
+#3 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#7 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('page/test')
+#8 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\www\yiitest\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/page/test
+---
+2014/03/25 09:29:07 [error] [exception.CException] exception 'CException' with message 'Event "PageController.onAfter" is not defined.' in E:\www\yiitest\libs\yiiframework\base\CComponent.php:478
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\base\CComponent.php(516): CComponent->getEventHandlers('onAfter')
+#1 E:\www\yiitest\protected\controllers\PageController.php(45): CComponent->attachEventHandler('onAfter', Array)
+#2 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): PageController->actionTest()
+#3 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#7 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('page/test')
+#8 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\www\yiitest\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/page/test
+---
+2014/03/25 09:29:07 [error] [exception.CException] exception 'CException' with message 'Event "PageController.onAfter" is not defined.' in E:\www\yiitest\libs\yiiframework\base\CComponent.php:478
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\base\CComponent.php(516): CComponent->getEventHandlers('onAfter')
+#1 E:\www\yiitest\protected\controllers\PageController.php(45): CComponent->attachEventHandler('onAfter', Array)
+#2 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): PageController->actionTest()
+#3 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#7 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('page/test')
+#8 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\www\yiitest\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/page/test
+---
+2014/03/25 09:29:07 [error] [exception.CException] exception 'CException' with message 'Event "PageController.onAfter" is not defined.' in E:\www\yiitest\libs\yiiframework\base\CComponent.php:478
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\base\CComponent.php(516): CComponent->getEventHandlers('onAfter')
+#1 E:\www\yiitest\protected\controllers\PageController.php(45): CComponent->attachEventHandler('onAfter', Array)
+#2 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): PageController->actionTest()
+#3 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#7 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('page/test')
+#8 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\www\yiitest\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/page/test
+---
+2014/03/25 09:29:08 [error] [exception.CException] exception 'CException' with message 'Event "PageController.onAfter" is not defined.' in E:\www\yiitest\libs\yiiframework\base\CComponent.php:478
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\base\CComponent.php(516): CComponent->getEventHandlers('onAfter')
+#1 E:\www\yiitest\protected\controllers\PageController.php(45): CComponent->attachEventHandler('onAfter', Array)
+#2 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): PageController->actionTest()
+#3 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#7 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('page/test')
+#8 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\www\yiitest\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/page/test
+---
+2014/03/27 16:51:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\www\yiitest\libs\yiiframework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\www\yiitest\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/03/27 16:51:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\www\yiitest\libs\yiiframework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\www\yiitest\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/03/27 16:51:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\www\yiitest\libs\yiiframework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\www\yiitest\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/03/28 11:40:29 [error] [php] Missing argument 2 for CComponent::raiseEvent(), called in E:\www\yiitest\protected\controllers\PageController.php on line 70 and defined (E:\www\yiitest\libs\yiiframework\base\CComponent.php:543)
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): PageController->actionTest()
+#1 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams()
+#2 E:\www\yiitest\libs\yiiframework\web\CController.php(287): PageController->runAction()
+#3 E:\www\yiitest\libs\yiiframework\web\CController.php(266): PageController->runActionWithFilters()
+#4 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): PageController->run()
+#5 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController()
+#6 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 E:\www\yiitest\index.php(13): CWebApplication->run()
+REQUEST_URI=/page/test
+2014/03/28 11:40:58 [error] [php] Missing argument 1 for PageController::onAfter(), called in E:\www\yiitest\protected\controllers\PageController.php on line 57 and defined (E:\www\yiitest\protected\controllers\PageController.php:66)
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams()
+#1 E:\www\yiitest\libs\yiiframework\web\CController.php(287): PageController->runAction()
+#2 E:\www\yiitest\libs\yiiframework\web\CController.php(266): PageController->runActionWithFilters()
+#3 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): PageController->run()
+#4 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 E:\www\yiitest\index.php(13): CWebApplication->run()
+REQUEST_URI=/page/test
+2014/03/28 11:41:13 [error] [exception.CException] exception 'CException' with message 'Event "PageController.onafter" is attached with an invalid handler "array".' in E:\www\yiitest\libs\yiiframework\base\CComponent.php:570
+Stack trace:
+#0 E:\www\yiitest\protected\controllers\PageController.php(67): CComponent->raiseEvent('onAfter', NULL)
+#1 E:\www\yiitest\protected\controllers\PageController.php(57): PageController->onAfter()
+#2 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): PageController->actionTest()
+#3 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#7 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('page/test')
+#8 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\www\yiitest\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/page/test
+---
+2014/04/21 11:57:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in E:\www\yiitest\libs\yiiframework\web\CController.php:485
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(271): CController->missingAction('')
+#1 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('')
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('')
+#3 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\www\yiitest\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/21 11:57:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\www\yiitest\libs\yiiframework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\www\yiitest\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/04/21 11:57:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\www\yiitest\libs\yiiframework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\www\yiitest\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/04/21 11:57:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\www\yiitest\libs\yiiframework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\www\yiitest\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/04/21 11:58:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in E:\www\yiitest\libs\yiiframework\web\CController.php:485
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(271): CController->missingAction('')
+#1 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('')
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('')
+#3 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\www\yiitest\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/21 11:58:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in E:\www\yiitest\libs\yiiframework\web\CController.php:485
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(271): CController->missingAction('')
+#1 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('')
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('')
+#3 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\www\yiitest\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/21 11:59:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in E:\www\yiitest\libs\yiiframework\web\CController.php:485
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(271): CController->missingAction('')
+#1 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('')
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('')
+#3 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\www\yiitest\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/21 11:59:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "abc/dd".' in E:\www\yiitest\libs\yiiframework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('abc/dd')
+#1 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\www\yiitest\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/abc/dd
+---
+2014/04/21 11:59:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "abc/dd".' in E:\www\yiitest\libs\yiiframework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('abc/dd')
+#1 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\www\yiitest\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/abc/dd
+---
+2014/04/21 11:59:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "abc/dd".' in E:\www\yiitest\libs\yiiframework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('abc/dd')
+#1 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\www\yiitest\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/abc/dd
+---
+2014/04/21 11:59:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "abc/dd".' in E:\www\yiitest\libs\yiiframework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('abc/dd')
+#1 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\www\yiitest\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/abc/dd
+---
+2014/04/21 11:59:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "abc/dd".' in E:\www\yiitest\libs\yiiframework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('abc/dd')
+#1 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\www\yiitest\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/abc/dd
+---
+2014/04/21 11:59:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "abc/dd".' in E:\www\yiitest\libs\yiiframework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('abc/dd')
+#1 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\www\yiitest\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/abc/dd
+---
+2014/04/21 11:59:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "abc/dd".' in E:\www\yiitest\libs\yiiframework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('abc/dd')
+#1 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\www\yiitest\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/abc/dd
+---
+2014/04/21 11:59:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "abc/dd".' in E:\www\yiitest\libs\yiiframework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('abc/dd')
+#1 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\www\yiitest\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/abc/dd
+---
+2014/04/21 11:59:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "abc/dd".' in E:\www\yiitest\libs\yiiframework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('abc/dd')
+#1 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\www\yiitest\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/abc/dd
+---
+2014/04/21 11:59:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "abc/dd".' in E:\www\yiitest\libs\yiiframework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('abc/dd')
+#1 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\www\yiitest\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/abc/dd
+---
+2014/04/21 11:59:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "abc/dd".' in E:\www\yiitest\libs\yiiframework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('abc/dd')
+#1 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\www\yiitest\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/abc/dd
+---
+2014/04/21 11:59:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "abc/dd".' in E:\www\yiitest\libs\yiiframework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('abc/dd')
+#1 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\www\yiitest\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/abc/dd
+---
+2014/04/21 11:59:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "abc/dd".' in E:\www\yiitest\libs\yiiframework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('abc/dd')
+#1 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\www\yiitest\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/abc/dd
+---
+2014/04/21 12:00:40 [error] [php] Undefined variable: data (E:\www\yiitest\protected\controllers\DbController.php:12)
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(287): DbController->runAction()
+#1 E:\www\yiitest\libs\yiiframework\web\CController.php(266): DbController->runActionWithFilters()
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): DbController->run()
+#3 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 E:\www\yiitest\index.php(13): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/04/21 12:00:52 [error] [php] Undefined variable: data (E:\www\yiitest\protected\controllers\DbController.php:12)
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(287): DbController->runAction()
+#1 E:\www\yiitest\libs\yiiframework\web\CController.php(266): DbController->runActionWithFilters()
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): DbController->run()
+#3 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 E:\www\yiitest\index.php(13): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/04/21 12:01:16 [error] [php] Undefined variable: data (E:\www\yiitest\protected\controllers\DbController.php:12)
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(287): DbController->runAction()
+#1 E:\www\yiitest\libs\yiiframework\web\CController.php(266): DbController->runActionWithFilters()
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): DbController->run()
+#3 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 E:\www\yiitest\index.php(13): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/04/21 12:01:18 [error] [php] Undefined variable: data (E:\www\yiitest\protected\controllers\DbController.php:12)
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(287): DbController->runAction()
+#1 E:\www\yiitest\libs\yiiframework\web\CController.php(266): DbController->runActionWithFilters()
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): DbController->run()
+#3 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 E:\www\yiitest\index.php(13): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/04/21 12:01:19 [error] [php] Undefined variable: data (E:\www\yiitest\protected\controllers\DbController.php:12)
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(287): DbController->runAction()
+#1 E:\www\yiitest\libs\yiiframework\web\CController.php(266): DbController->runActionWithFilters()
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): DbController->run()
+#3 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 E:\www\yiitest\index.php(13): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/04/21 12:01:20 [error] [php] Undefined variable: data (E:\www\yiitest\protected\controllers\DbController.php:12)
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(287): DbController->runAction()
+#1 E:\www\yiitest\libs\yiiframework\web\CController.php(266): DbController->runActionWithFilters()
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): DbController->run()
+#3 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 E:\www\yiitest\index.php(13): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/04/21 12:01:21 [error] [php] Undefined variable: data (E:\www\yiitest\protected\controllers\DbController.php:12)
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(287): DbController->runAction()
+#1 E:\www\yiitest\libs\yiiframework\web\CController.php(266): DbController->runActionWithFilters()
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): DbController->run()
+#3 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 E:\www\yiitest\index.php(13): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/04/21 12:01:21 [error] [php] Undefined variable: data (E:\www\yiitest\protected\controllers\DbController.php:12)
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(287): DbController->runAction()
+#1 E:\www\yiitest\libs\yiiframework\web\CController.php(266): DbController->runActionWithFilters()
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): DbController->run()
+#3 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 E:\www\yiitest\index.php(13): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/04/21 12:01:31 [error] [php] Undefined variable: data (E:\www\yiitest\protected\controllers\DbController.php:12)
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(287): DbController->runAction()
+#1 E:\www\yiitest\libs\yiiframework\web\CController.php(266): DbController->runActionWithFilters()
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): DbController->run()
+#3 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 E:\www\yiitest\index.php(13): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/04/21 12:01:32 [error] [php] Undefined variable: data (E:\www\yiitest\protected\controllers\DbController.php:12)
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(287): DbController->runAction()
+#1 E:\www\yiitest\libs\yiiframework\web\CController.php(266): DbController->runActionWithFilters()
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): DbController->run()
+#3 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 E:\www\yiitest\index.php(13): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/04/21 12:01:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test1".' in E:\www\yiitest\libs\yiiframework\web\CController.php:485
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(271): CController->missingAction('test1')
+#1 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test1')
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('db/test1')
+#3 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\www\yiitest\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/db/test1
+---
+2014/04/21 12:02:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test1".' in E:\www\yiitest\libs\yiiframework\web\CController.php:485
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(271): CController->missingAction('test1')
+#1 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test1')
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('db/test1')
+#3 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\www\yiitest\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/db/test1
+---
+2014/04/21 12:02:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test1".' in E:\www\yiitest\libs\yiiframework\web\CController.php:485
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(271): CController->missingAction('test1')
+#1 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test1')
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('db/test1')
+#3 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\www\yiitest\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/db/test1
+---
+2014/04/21 12:02:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test1".' in E:\www\yiitest\libs\yiiframework\web\CController.php:485
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(271): CController->missingAction('test1')
+#1 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test1')
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('db/test1')
+#3 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\www\yiitest\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/db/test1
+---
+2014/04/21 12:02:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test1".' in E:\www\yiitest\libs\yiiframework\web\CController.php:485
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(271): CController->missingAction('test1')
+#1 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test1')
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('db/test1')
+#3 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\www\yiitest\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/db/test1
+---
+2014/04/21 12:02:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test1".' in E:\www\yiitest\libs\yiiframework\web\CController.php:485
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(271): CController->missingAction('test1')
+#1 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test1')
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('db/test1')
+#3 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\www\yiitest\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/db/test1
+---
+2014/04/21 12:02:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test1".' in E:\www\yiitest\libs\yiiframework\web\CController.php:485
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(271): CController->missingAction('test1')
+#1 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test1')
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('db/test1')
+#3 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\www\yiitest\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/db/test1
+---
+2014/04/21 12:02:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test1".' in E:\www\yiitest\libs\yiiframework\web\CController.php:485
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(271): CController->missingAction('test1')
+#1 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test1')
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('db/test1')
+#3 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\www\yiitest\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/db/test1
+---
+2014/04/21 12:02:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test1".' in E:\www\yiitest\libs\yiiframework\web\CController.php:485
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(271): CController->missingAction('test1')
+#1 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test1')
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('db/test1')
+#3 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\www\yiitest\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/db/test1
+---
+2014/04/21 12:02:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test1".' in E:\www\yiitest\libs\yiiframework\web\CController.php:485
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(271): CController->missingAction('test1')
+#1 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test1')
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('db/test1')
+#3 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\www\yiitest\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/db/test1
+---
+2014/04/21 12:02:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test1".' in E:\www\yiitest\libs\yiiframework\web\CController.php:485
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(271): CController->missingAction('test1')
+#1 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test1')
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('db/test1')
+#3 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\www\yiitest\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/db/test1
+---
+2014/04/21 12:02:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test1".' in E:\www\yiitest\libs\yiiframework\web\CController.php:485
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(271): CController->missingAction('test1')
+#1 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test1')
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('db/test1')
+#3 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\www\yiitest\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/db/test1
+---
+2014/04/21 12:02:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test1".' in E:\www\yiitest\libs\yiiframework\web\CController.php:485
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(271): CController->missingAction('test1')
+#1 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test1')
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('db/test1')
+#3 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\www\yiitest\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/db/test1
+---
+2014/04/21 12:02:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test1".' in E:\www\yiitest\libs\yiiframework\web\CController.php:485
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(271): CController->missingAction('test1')
+#1 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test1')
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('db/test1')
+#3 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\www\yiitest\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/db/test1
+---
+2014/04/21 12:02:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test1".' in E:\www\yiitest\libs\yiiframework\web\CController.php:485
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(271): CController->missingAction('test1')
+#1 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test1')
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('db/test1')
+#3 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\www\yiitest\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/db/test1
+---
+2014/04/21 12:02:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test1".' in E:\www\yiitest\libs\yiiframework\web\CController.php:485
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(271): CController->missingAction('test1')
+#1 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test1')
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('db/test1')
+#3 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\www\yiitest\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/db/test1
+---
+2014/04/21 12:02:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test1".' in E:\www\yiitest\libs\yiiframework\web\CController.php:485
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(271): CController->missingAction('test1')
+#1 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test1')
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('db/test1')
+#3 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\www\yiitest\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/db/test1
+---
+2014/04/21 12:02:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test1".' in E:\www\yiitest\libs\yiiframework\web\CController.php:485
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(271): CController->missingAction('test1')
+#1 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test1')
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('db/test1')
+#3 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\www\yiitest\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/db/test1
+---
+2014/04/21 12:02:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test1".' in E:\www\yiitest\libs\yiiframework\web\CController.php:485
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(271): CController->missingAction('test1')
+#1 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test1')
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('db/test1')
+#3 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\www\yiitest\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/db/test1
+---
+2014/04/21 13:26:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test1".' in E:\www\yiitest\libs\yiiframework\web\CController.php:485
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(271): CController->missingAction('test1')
+#1 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test1')
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('db/test1')
+#3 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\www\yiitest\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/db/test1
+---
+2014/04/21 13:26:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test1".' in E:\www\yiitest\libs\yiiframework\web\CController.php:485
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(271): CController->missingAction('test1')
+#1 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test1')
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('db/test1')
+#3 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\www\yiitest\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/db/test1
+---
+2014/04/21 13:26:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test1".' in E:\www\yiitest\libs\yiiframework\web\CController.php:485
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(271): CController->missingAction('test1')
+#1 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test1')
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('db/test1')
+#3 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\www\yiitest\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/db/test1
+---
+2014/04/21 13:26:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test1".' in E:\www\yiitest\libs\yiiframework\web\CController.php:485
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(271): CController->missingAction('test1')
+#1 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test1')
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('db/test1')
+#3 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\www\yiitest\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/db/test1
+---
+2014/04/21 13:26:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test1".' in E:\www\yiitest\libs\yiiframework\web\CController.php:485
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(271): CController->missingAction('test1')
+#1 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test1')
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('db/test1')
+#3 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\www\yiitest\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/db/test1
+---
+2014/04/21 13:26:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test1".' in E:\www\yiitest\libs\yiiframework\web\CController.php:485
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(271): CController->missingAction('test1')
+#1 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test1')
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('db/test1')
+#3 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\www\yiitest\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/db/test1
+---
+2014/04/21 13:26:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test1".' in E:\www\yiitest\libs\yiiframework\web\CController.php:485
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(271): CController->missingAction('test1')
+#1 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test1')
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('db/test1')
+#3 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\www\yiitest\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/db/test1
+---
+2014/04/21 13:26:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test1".' in E:\www\yiitest\libs\yiiframework\web\CController.php:485
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(271): CController->missingAction('test1')
+#1 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test1')
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('db/test1')
+#3 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\www\yiitest\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/db/test1
+---
+2014/04/21 13:26:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test1".' in E:\www\yiitest\libs\yiiframework\web\CController.php:485
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(271): CController->missingAction('test1')
+#1 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test1')
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('db/test1')
+#3 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\www\yiitest\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/db/test1
+---
+2014/04/21 13:26:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test1".' in E:\www\yiitest\libs\yiiframework\web\CController.php:485
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(271): CController->missingAction('test1')
+#1 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test1')
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('db/test1')
+#3 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\www\yiitest\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/db/test1
+---
+2014/04/21 13:26:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test1".' in E:\www\yiitest\libs\yiiframework\web\CController.php:485
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(271): CController->missingAction('test1')
+#1 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test1')
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('db/test1')
+#3 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\www\yiitest\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/db/test1
+---
+2014/04/21 13:26:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test1".' in E:\www\yiitest\libs\yiiframework\web\CController.php:485
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(271): CController->missingAction('test1')
+#1 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test1')
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('db/test1')
+#3 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\www\yiitest\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/db/test1
+---
+2014/04/21 13:26:42 [error] [php] Undefined variable: data (E:\www\yiitest\protected\controllers\DbController.php:12)
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(287): DbController->runAction()
+#1 E:\www\yiitest\libs\yiiframework\web\CController.php(266): DbController->runActionWithFilters()
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): DbController->run()
+#3 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 E:\www\yiitest\index.php(13): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/04/21 13:26:57 [error] [php] Undefined variable: data (E:\www\yiitest\protected\controllers\DbController.php:12)
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(287): DbController->runAction()
+#1 E:\www\yiitest\libs\yiiframework\web\CController.php(266): DbController->runActionWithFilters()
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): DbController->run()
+#3 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 E:\www\yiitest\index.php(13): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/04/21 13:27:03 [error] [php] Undefined variable: data (E:\www\yiitest\protected\controllers\DbController.php:12)
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(287): DbController->runAction()
+#1 E:\www\yiitest\libs\yiiframework\web\CController.php(266): DbController->runActionWithFilters()
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): DbController->run()
+#3 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 E:\www\yiitest\index.php(13): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/04/21 13:27:03 [error] [php] Undefined variable: data (E:\www\yiitest\protected\controllers\DbController.php:12)
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(287): DbController->runAction()
+#1 E:\www\yiitest\libs\yiiframework\web\CController.php(266): DbController->runActionWithFilters()
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): DbController->run()
+#3 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 E:\www\yiitest\index.php(13): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/04/21 13:27:04 [error] [php] Undefined variable: data (E:\www\yiitest\protected\controllers\DbController.php:12)
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(287): DbController->runAction()
+#1 E:\www\yiitest\libs\yiiframework\web\CController.php(266): DbController->runActionWithFilters()
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): DbController->run()
+#3 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 E:\www\yiitest\index.php(13): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/04/21 13:27:05 [error] [php] Undefined variable: data (E:\www\yiitest\protected\controllers\DbController.php:12)
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(287): DbController->runAction()
+#1 E:\www\yiitest\libs\yiiframework\web\CController.php(266): DbController->runActionWithFilters()
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): DbController->run()
+#3 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 E:\www\yiitest\index.php(13): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/04/21 13:27:06 [error] [php] Undefined variable: data (E:\www\yiitest\protected\controllers\DbController.php:12)
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(287): DbController->runAction()
+#1 E:\www\yiitest\libs\yiiframework\web\CController.php(266): DbController->runActionWithFilters()
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): DbController->run()
+#3 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 E:\www\yiitest\index.php(13): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/04/21 13:27:06 [error] [php] Undefined variable: data (E:\www\yiitest\protected\controllers\DbController.php:12)
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(287): DbController->runAction()
+#1 E:\www\yiitest\libs\yiiframework\web\CController.php(266): DbController->runActionWithFilters()
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): DbController->run()
+#3 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 E:\www\yiitest\index.php(13): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/04/21 13:27:07 [error] [php] Undefined variable: data (E:\www\yiitest\protected\controllers\DbController.php:12)
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(287): DbController->runAction()
+#1 E:\www\yiitest\libs\yiiframework\web\CController.php(266): DbController->runActionWithFilters()
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): DbController->run()
+#3 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 E:\www\yiitest\index.php(13): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/04/21 13:27:08 [error] [php] Undefined variable: data (E:\www\yiitest\protected\controllers\DbController.php:12)
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(287): DbController->runAction()
+#1 E:\www\yiitest\libs\yiiframework\web\CController.php(266): DbController->runActionWithFilters()
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): DbController->run()
+#3 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 E:\www\yiitest\index.php(13): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/04/21 13:27:09 [error] [php] Undefined variable: data (E:\www\yiitest\protected\controllers\DbController.php:12)
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(287): DbController->runAction()
+#1 E:\www\yiitest\libs\yiiframework\web\CController.php(266): DbController->runActionWithFilters()
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): DbController->run()
+#3 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 E:\www\yiitest\index.php(13): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/04/21 13:27:11 [error] [php] Undefined variable: data (E:\www\yiitest\protected\controllers\DbController.php:12)
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(287): DbController->runAction()
+#1 E:\www\yiitest\libs\yiiframework\web\CController.php(266): DbController->runActionWithFilters()
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): DbController->run()
+#3 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 E:\www\yiitest\index.php(13): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/04/21 13:27:12 [error] [php] Undefined variable: data (E:\www\yiitest\protected\controllers\DbController.php:12)
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(287): DbController->runAction()
+#1 E:\www\yiitest\libs\yiiframework\web\CController.php(266): DbController->runActionWithFilters()
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): DbController->run()
+#3 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 E:\www\yiitest\index.php(13): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/04/21 13:27:14 [error] [php] Undefined variable: data (E:\www\yiitest\protected\controllers\DbController.php:12)
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(287): DbController->runAction()
+#1 E:\www\yiitest\libs\yiiframework\web\CController.php(266): DbController->runActionWithFilters()
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): DbController->run()
+#3 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 E:\www\yiitest\index.php(13): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/04/21 13:27:15 [error] [php] Undefined variable: data (E:\www\yiitest\protected\controllers\DbController.php:12)
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(287): DbController->runAction()
+#1 E:\www\yiitest\libs\yiiframework\web\CController.php(266): DbController->runActionWithFilters()
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): DbController->run()
+#3 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 E:\www\yiitest\index.php(13): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/04/21 13:27:16 [error] [php] Undefined variable: data (E:\www\yiitest\protected\controllers\DbController.php:12)
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(287): DbController->runAction()
+#1 E:\www\yiitest\libs\yiiframework\web\CController.php(266): DbController->runActionWithFilters()
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): DbController->run()
+#3 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 E:\www\yiitest\index.php(13): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/04/21 13:27:18 [error] [php] Undefined variable: data (E:\www\yiitest\protected\controllers\DbController.php:12)
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\web\CController.php(287): DbController->runAction()
+#1 E:\www\yiitest\libs\yiiframework\web\CController.php(266): DbController->runActionWithFilters()
+#2 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): DbController->run()
+#3 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 E:\www\yiitest\index.php(13): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/04/21 13:28:41 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] 由于目标计算机积极拒绝，无法连接。
+' in E:\www\yiitest\libs\yiiframework\db\CDbConnection.php:382
+Stack trace:
+#0 E:\www\yiitest\libs\yiiframework\db\CDbConnection.php(330): CDbConnection->open()
+#1 E:\www\yiitest\libs\yiiframework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 E:\www\yiitest\libs\yiiframework\base\CModule.php(387): CDbConnection->init()
+#3 E:\www\yiitest\libs\yiiframework\base\CModule.php(103): CModule->getComponent('db')
+#4 E:\www\yiitest\protected\controllers\DbController.php(13): CModule->__get('db')
+#5 E:\www\yiitest\libs\yiiframework\web\actions\CInlineAction.php(49): DbController->actionTest()
+#6 E:\www\yiitest\libs\yiiframework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#7 E:\www\yiitest\libs\yiiframework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#8 E:\www\yiitest\libs\yiiframework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(283): CController->run('test')
+#10 E:\www\yiitest\libs\yiiframework\web\CWebApplication.php(142): CWebApplication->runController('db/test')
+#11 E:\www\yiitest\libs\yiiframework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 E:\www\yiitest\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/db/test
+---
