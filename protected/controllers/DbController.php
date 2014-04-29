@@ -10,6 +10,6 @@
 class DbController extends Controller
 {
     public function actionTest() {
-        var_dump(Yii::app()->db);exit;
+        Common_Tool::prePrint(Yii::app()->db);
     }
 }

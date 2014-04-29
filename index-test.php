@@ -1,4 +1,5 @@
 <?php
+var_dump(123);exit;
 header("Content-Type:text/html; charset=utf-8");
 header("Cache-Control: no-store, no-cache, must-revalidate");
 /**

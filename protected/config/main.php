@@ -27,10 +27,7 @@ return array(
 			'allowAutoLogin'=>true, //允许自动登录
 		    'identityCookie'=>array('domain'=>'.ipinla.com'), // 有多个分站时，同步登陆，基本于cookie
 		),
-		/* 'db'=>array(
-			'connectionString' => 'sqlite:protected/data/blog.db', //连接数据库的DSN字符串
-			'tablePrefix' => 'tbl_', //数据表前缀
-		), */
+		
 	    /* 'cache' => array(//缓存组件
 			'class' => 'CMemCache',//缓存组件类
 	        'servers' => array( //MemCache缓存服务器配置
@@ -43,13 +40,14 @@ return array(
 		
 		'db'=>array(
 			'connectionString' => 'mysql:host=localhost;dbname=YiiTest',
+			//'connectionString' => 'sqlite:protected/data/blog.db', //连接数据库的DSN字符串
 			'emulatePrepare' => true,
 			'username' => 'root',
 			'password' => '123456',
 			'charset' => 'utf8',
-			//'tablePrefix' => 'tbl_',
+			//'tablePrefix' => 'tbl_', //数据表前缀
 		),
-		
+
 		'errorHandler'=>array(
 			// use 'site/error' action to display errors
 			'errorAction'=>'site/error',// 使用SiteController控制器类中的actionError方法显示错误
