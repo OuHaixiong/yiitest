@@ -34,3 +34,1660 @@ Stack trace:
 #13 {main}
 REQUEST_URI=/db/test
 ---
+2014/04/29 18:37:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:37:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php:287
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/04/29 18:37:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php:287
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/04/29 18:37:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php:287
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/04/29 18:46:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:46:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:46:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:46:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:47:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:47:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:47:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:47:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:47:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:47:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:48:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:48:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:48:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:48:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:48:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:48:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:48:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:48:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:48:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:48:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:48:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:48:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:48:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:48:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:48:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:48:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:48:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:48:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:48:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:48:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:48:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:48:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:48:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:48:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:48:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:48:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:48:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:48:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:48:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:48:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:48:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:48:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:48:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:50:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:50:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:50:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:52:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:52:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:52:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:52:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:52:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:52:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:52:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:52:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:52:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:52:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:52:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:52:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:52:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:52:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:53:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:53:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:53:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:53:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:53:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:53:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:53:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:53:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:53:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:53:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:53:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:53:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:53:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:53:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:53:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:53:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:53:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:55:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:55:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:55:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:55:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:55:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:55:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:55:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:55:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:55:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:55:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:55:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:55:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:55:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:55:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:55:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:55:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:55:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:55:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:55:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:55:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:55:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:57:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:57:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:57:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:57:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:57:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:57:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:57:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:57:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:57:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:57:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:57:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/yiitest/libs/yiiframework/web/CController.php:485
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/
+---
+2014/04/29 18:58:22 [error] [php] Undefined variable: a (/home/u32/www/yiitest/protected/controllers/DbController.php:12)
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(287): DbController->runAction()
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(266): DbController->runActionWithFilters()
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): DbController->run()
+#3 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#4 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/u32/www/yiitest/index.php(14): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/04/29 18:58:42 [error] [php] Undefined variable: a (/home/u32/www/yiitest/protected/controllers/DbController.php:12)
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(287): DbController->runAction()
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(266): DbController->runActionWithFilters()
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): DbController->run()
+#3 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#4 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/u32/www/yiitest/index.php(14): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/04/29 18:58:43 [error] [php] Undefined variable: a (/home/u32/www/yiitest/protected/controllers/DbController.php:12)
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(287): DbController->runAction()
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(266): DbController->runActionWithFilters()
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): DbController->run()
+#3 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#4 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/u32/www/yiitest/index.php(14): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/04/29 18:58:44 [error] [php] Undefined variable: a (/home/u32/www/yiitest/protected/controllers/DbController.php:12)
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(287): DbController->runAction()
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(266): DbController->runActionWithFilters()
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): DbController->run()
+#3 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#4 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/u32/www/yiitest/index.php(14): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/04/29 18:58:44 [error] [php] Undefined variable: a (/home/u32/www/yiitest/protected/controllers/DbController.php:12)
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(287): DbController->runAction()
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(266): DbController->runActionWithFilters()
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): DbController->run()
+#3 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#4 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/u32/www/yiitest/index.php(14): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/04/29 18:58:44 [error] [php] Undefined variable: a (/home/u32/www/yiitest/protected/controllers/DbController.php:12)
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(287): DbController->runAction()
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(266): DbController->runActionWithFilters()
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): DbController->run()
+#3 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#4 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/u32/www/yiitest/index.php(14): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/04/29 18:58:45 [error] [php] Undefined variable: a (/home/u32/www/yiitest/protected/controllers/DbController.php:12)
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(287): DbController->runAction()
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(266): DbController->runActionWithFilters()
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): DbController->run()
+#3 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#4 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/u32/www/yiitest/index.php(14): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/04/29 18:58:45 [error] [php] Undefined variable: a (/home/u32/www/yiitest/protected/controllers/DbController.php:12)
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(287): DbController->runAction()
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(266): DbController->runActionWithFilters()
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): DbController->run()
+#3 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#4 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/u32/www/yiitest/index.php(14): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/04/29 18:58:45 [error] [php] Undefined variable: a (/home/u32/www/yiitest/protected/controllers/DbController.php:12)
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(287): DbController->runAction()
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(266): DbController->runActionWithFilters()
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): DbController->run()
+#3 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#4 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/u32/www/yiitest/index.php(14): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/04/29 18:58:48 [error] [php] Undefined variable: a (/home/u32/www/yiitest/protected/controllers/DbController.php:12)
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(287): DbController->runAction()
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(266): DbController->runActionWithFilters()
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): DbController->run()
+#3 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#4 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/u32/www/yiitest/index.php(14): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/04/29 18:58:48 [error] [php] Undefined variable: a (/home/u32/www/yiitest/protected/controllers/DbController.php:12)
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(287): DbController->runAction()
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(266): DbController->runActionWithFilters()
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): DbController->run()
+#3 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#4 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/u32/www/yiitest/index.php(14): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/04/29 18:58:48 [error] [php] Undefined variable: a (/home/u32/www/yiitest/protected/controllers/DbController.php:12)
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(287): DbController->runAction()
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(266): DbController->runActionWithFilters()
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): DbController->run()
+#3 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#4 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/u32/www/yiitest/index.php(14): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/04/29 18:58:49 [error] [php] Undefined variable: a (/home/u32/www/yiitest/protected/controllers/DbController.php:12)
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(287): DbController->runAction()
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(266): DbController->runActionWithFilters()
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): DbController->run()
+#3 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#4 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/u32/www/yiitest/index.php(14): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/04/29 18:58:49 [error] [php] Undefined variable: a (/home/u32/www/yiitest/protected/controllers/DbController.php:12)
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(287): DbController->runAction()
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(266): DbController->runActionWithFilters()
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): DbController->run()
+#3 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#4 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/u32/www/yiitest/index.php(14): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/04/29 18:58:54 [error] [php] Undefined variable: a (/home/u32/www/yiitest/protected/controllers/DbController.php:12)
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(287): DbController->runAction()
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(266): DbController->runActionWithFilters()
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): DbController->run()
+#3 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#4 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/u32/www/yiitest/index.php(14): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/04/29 18:58:54 [error] [php] Undefined variable: a (/home/u32/www/yiitest/protected/controllers/DbController.php:12)
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(287): DbController->runAction()
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(266): DbController->runActionWithFilters()
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): DbController->run()
+#3 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#4 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/u32/www/yiitest/index.php(14): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/04/29 18:58:54 [error] [php] Undefined variable: a (/home/u32/www/yiitest/protected/controllers/DbController.php:12)
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(287): DbController->runAction()
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(266): DbController->runActionWithFilters()
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): DbController->run()
+#3 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#4 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/u32/www/yiitest/index.php(14): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/04/29 18:58:54 [error] [php] Undefined variable: a (/home/u32/www/yiitest/protected/controllers/DbController.php:12)
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(287): DbController->runAction()
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(266): DbController->runActionWithFilters()
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): DbController->run()
+#3 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#4 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/u32/www/yiitest/index.php(14): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/04/29 18:58:57 [error] [php] Undefined variable: a (/home/u32/www/yiitest/protected/controllers/DbController.php:12)
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(287): DbController->runAction()
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(266): DbController->runActionWithFilters()
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): DbController->run()
+#3 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#4 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/u32/www/yiitest/index.php(14): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/04/29 18:58:57 [error] [php] Undefined variable: a (/home/u32/www/yiitest/protected/controllers/DbController.php:12)
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(287): DbController->runAction()
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(266): DbController->runActionWithFilters()
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): DbController->run()
+#3 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#4 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/u32/www/yiitest/index.php(14): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/04/29 18:58:58 [error] [php] Undefined variable: a (/home/u32/www/yiitest/protected/controllers/DbController.php:12)
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(287): DbController->runAction()
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(266): DbController->runActionWithFilters()
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): DbController->run()
+#3 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#4 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/u32/www/yiitest/index.php(14): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/04/29 18:59:00 [error] [php] Undefined variable: a (/home/u32/www/yiitest/protected/controllers/DbController.php:12)
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(287): DbController->runAction()
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(266): DbController->runActionWithFilters()
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): DbController->run()
+#3 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#4 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/u32/www/yiitest/index.php(14): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/04/29 18:59:00 [error] [php] Undefined variable: a (/home/u32/www/yiitest/protected/controllers/DbController.php:12)
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(287): DbController->runAction()
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(266): DbController->runActionWithFilters()
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): DbController->run()
+#3 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#4 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/u32/www/yiitest/index.php(14): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/04/29 18:59:00 [error] [php] Undefined variable: a (/home/u32/www/yiitest/protected/controllers/DbController.php:12)
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(287): DbController->runAction()
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(266): DbController->runActionWithFilters()
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): DbController->run()
+#3 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#4 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/u32/www/yiitest/index.php(14): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/04/29 18:59:01 [error] [php] Undefined variable: a (/home/u32/www/yiitest/protected/controllers/DbController.php:12)
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(287): DbController->runAction()
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(266): DbController->runActionWithFilters()
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): DbController->run()
+#3 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#4 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/u32/www/yiitest/index.php(14): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/04/29 20:14:50 [error] [php] MemcachePool::set(): The lowest two bytes of the flags array is reserved for pecl/memcache internal use (/home/u32/www/yiitest/protected/controllers/MemcacheController.php:18)
+Stack trace:
+#0 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(309): CInlineAction->runWithParams()
+#1 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(287): MemcacheController->runAction()
+#2 /home/u32/www/yiitest/libs/yiiframework/web/CController.php(266): MemcacheController->runActionWithFilters()
+#3 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(283): MemcacheController->run()
+#4 /home/u32/www/yiitest/libs/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#5 /home/u32/www/yiitest/libs/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /home/u32/www/yiitest/index.php(13): CWebApplication->run()
+REQUEST_URI=/memcache/connect
+2014/05/04 01:46:48 [error] [php] include(Common_Tool.php): failed to open stream: No such file or directory (/home/u32/www/libraries/yiiframework/YiiBase.php:427)
+Stack trace:
+#0 /home/u32/www/yiitest/protected/controllers/DbController.php(13): spl_autoload_call()
+#1 /home/u32/www/libraries/yiiframework/web/actions/CInlineAction.php(49): DbController->actionTest()
+#2 /home/u32/www/libraries/yiiframework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /home/u32/www/libraries/yiiframework/web/CController.php(286): DbController->runAction()
+#4 /home/u32/www/libraries/yiiframework/web/CController.php(265): DbController->runActionWithFilters()
+#5 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(282): DbController->run()
+#6 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /home/u32/www/yiitest/index.php(15): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/05/04 01:46:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/u32/www/libraries/yiiframework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u32/www/yiitest/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/05/04 01:46:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/u32/www/libraries/yiiframework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u32/www/yiitest/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/05/04 02:05:55 [error] [php] Undefined variable: a (/home/u32/www/yiitest/protected/controllers/DbController.php:12)
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CController.php(287): DbController->runAction()
+#1 /home/u32/www/libraries/yiiframework/web/CController.php(266): DbController->runActionWithFilters()
+#2 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): DbController->run()
+#3 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#4 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/u32/www/yiitest/index.php(15): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/05/04 02:05:58 [error] [php] Undefined variable: a (/home/u32/www/yiitest/protected/controllers/DbController.php:12)
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CController.php(287): DbController->runAction()
+#1 /home/u32/www/libraries/yiiframework/web/CController.php(266): DbController->runActionWithFilters()
+#2 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): DbController->run()
+#3 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#4 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/u32/www/yiitest/index.php(15): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/05/04 02:05:58 [error] [php] Undefined variable: a (/home/u32/www/yiitest/protected/controllers/DbController.php:12)
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CController.php(287): DbController->runAction()
+#1 /home/u32/www/libraries/yiiframework/web/CController.php(266): DbController->runActionWithFilters()
+#2 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): DbController->run()
+#3 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#4 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/u32/www/yiitest/index.php(15): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/05/04 02:05:59 [error] [php] Undefined variable: a (/home/u32/www/yiitest/protected/controllers/DbController.php:12)
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CController.php(287): DbController->runAction()
+#1 /home/u32/www/libraries/yiiframework/web/CController.php(266): DbController->runActionWithFilters()
+#2 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): DbController->run()
+#3 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#4 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/u32/www/yiitest/index.php(15): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/05/04 02:05:59 [error] [php] Undefined variable: a (/home/u32/www/yiitest/protected/controllers/DbController.php:12)
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CController.php(287): DbController->runAction()
+#1 /home/u32/www/libraries/yiiframework/web/CController.php(266): DbController->runActionWithFilters()
+#2 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): DbController->run()
+#3 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#4 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/u32/www/yiitest/index.php(15): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/05/04 02:06:00 [error] [php] Undefined variable: a (/home/u32/www/yiitest/protected/controllers/DbController.php:12)
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CController.php(287): DbController->runAction()
+#1 /home/u32/www/libraries/yiiframework/web/CController.php(266): DbController->runActionWithFilters()
+#2 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): DbController->run()
+#3 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#4 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/u32/www/yiitest/index.php(15): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/05/04 02:06:00 [error] [php] Undefined variable: a (/home/u32/www/yiitest/protected/controllers/DbController.php:12)
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CController.php(287): DbController->runAction()
+#1 /home/u32/www/libraries/yiiframework/web/CController.php(266): DbController->runActionWithFilters()
+#2 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): DbController->run()
+#3 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#4 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/u32/www/yiitest/index.php(15): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/05/04 02:06:00 [error] [php] Undefined variable: a (/home/u32/www/yiitest/protected/controllers/DbController.php:12)
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CController.php(287): DbController->runAction()
+#1 /home/u32/www/libraries/yiiframework/web/CController.php(266): DbController->runActionWithFilters()
+#2 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): DbController->run()
+#3 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#4 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/u32/www/yiitest/index.php(15): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/05/04 02:06:01 [error] [php] Undefined variable: a (/home/u32/www/yiitest/protected/controllers/DbController.php:12)
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CController.php(287): DbController->runAction()
+#1 /home/u32/www/libraries/yiiframework/web/CController.php(266): DbController->runActionWithFilters()
+#2 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): DbController->run()
+#3 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#4 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/u32/www/yiitest/index.php(15): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/05/04 02:06:01 [error] [php] Undefined variable: a (/home/u32/www/yiitest/protected/controllers/DbController.php:12)
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CController.php(287): DbController->runAction()
+#1 /home/u32/www/libraries/yiiframework/web/CController.php(266): DbController->runActionWithFilters()
+#2 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): DbController->run()
+#3 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#4 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/u32/www/yiitest/index.php(15): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/05/04 02:06:01 [error] [php] Undefined variable: a (/home/u32/www/yiitest/protected/controllers/DbController.php:12)
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CController.php(287): DbController->runAction()
+#1 /home/u32/www/libraries/yiiframework/web/CController.php(266): DbController->runActionWithFilters()
+#2 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): DbController->run()
+#3 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#4 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/u32/www/yiitest/index.php(15): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/05/04 02:06:01 [error] [php] Undefined variable: a (/home/u32/www/yiitest/protected/controllers/DbController.php:12)
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CController.php(287): DbController->runAction()
+#1 /home/u32/www/libraries/yiiframework/web/CController.php(266): DbController->runActionWithFilters()
+#2 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): DbController->run()
+#3 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#4 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/u32/www/yiitest/index.php(15): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/05/04 02:06:02 [error] [php] Undefined variable: a (/home/u32/www/yiitest/protected/controllers/DbController.php:12)
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CController.php(287): DbController->runAction()
+#1 /home/u32/www/libraries/yiiframework/web/CController.php(266): DbController->runActionWithFilters()
+#2 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): DbController->run()
+#3 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#4 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/u32/www/yiitest/index.php(15): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/05/04 02:06:02 [error] [php] Undefined variable: a (/home/u32/www/yiitest/protected/controllers/DbController.php:12)
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CController.php(287): DbController->runAction()
+#1 /home/u32/www/libraries/yiiframework/web/CController.php(266): DbController->runActionWithFilters()
+#2 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): DbController->run()
+#3 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#4 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/u32/www/yiitest/index.php(15): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/05/04 02:18:09 [error] [php] Undefined variable: a (/home/u32/www/yiitest/protected/controllers/DbController.php:12)
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CController.php(287): DbController->runAction()
+#1 /home/u32/www/libraries/yiiframework/web/CController.php(266): DbController->runActionWithFilters()
+#2 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): DbController->run()
+#3 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#4 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/u32/www/yiitest/index.php(15): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/05/04 02:18:47 [error] [php] Undefined variable: a (/home/u32/www/yiitest/protected/controllers/DbController.php:12)
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CController.php(287): DbController->runAction()
+#1 /home/u32/www/libraries/yiiframework/web/CController.php(266): DbController->runActionWithFilters()
+#2 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): DbController->run()
+#3 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#4 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/u32/www/yiitest/index.php(15): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/05/04 02:19:07 [error] [php] Undefined variable: a (/home/u32/www/yiitest/protected/controllers/DbController.php:12)
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CController.php(287): DbController->runAction()
+#1 /home/u32/www/libraries/yiiframework/web/CController.php(266): DbController->runActionWithFilters()
+#2 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): DbController->run()
+#3 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#4 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/u32/www/yiitest/index.php(15): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/05/04 02:19:08 [error] [php] Undefined variable: a (/home/u32/www/yiitest/protected/controllers/DbController.php:12)
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CController.php(287): DbController->runAction()
+#1 /home/u32/www/libraries/yiiframework/web/CController.php(266): DbController->runActionWithFilters()
+#2 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): DbController->run()
+#3 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#4 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/u32/www/yiitest/index.php(15): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/05/04 02:19:08 [error] [php] Undefined variable: a (/home/u32/www/yiitest/protected/controllers/DbController.php:12)
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CController.php(287): DbController->runAction()
+#1 /home/u32/www/libraries/yiiframework/web/CController.php(266): DbController->runActionWithFilters()
+#2 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): DbController->run()
+#3 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#4 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/u32/www/yiitest/index.php(15): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/05/04 02:19:09 [error] [php] Undefined variable: a (/home/u32/www/yiitest/protected/controllers/DbController.php:12)
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CController.php(287): DbController->runAction()
+#1 /home/u32/www/libraries/yiiframework/web/CController.php(266): DbController->runActionWithFilters()
+#2 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): DbController->run()
+#3 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#4 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/u32/www/yiitest/index.php(15): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/05/04 02:19:10 [error] [php] Undefined variable: a (/home/u32/www/yiitest/protected/controllers/DbController.php:12)
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CController.php(287): DbController->runAction()
+#1 /home/u32/www/libraries/yiiframework/web/CController.php(266): DbController->runActionWithFilters()
+#2 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): DbController->run()
+#3 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#4 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/u32/www/yiitest/index.php(15): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/05/04 02:19:10 [error] [php] Undefined variable: a (/home/u32/www/yiitest/protected/controllers/DbController.php:12)
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CController.php(287): DbController->runAction()
+#1 /home/u32/www/libraries/yiiframework/web/CController.php(266): DbController->runActionWithFilters()
+#2 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): DbController->run()
+#3 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#4 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/u32/www/yiitest/index.php(15): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/05/04 02:19:10 [error] [php] Undefined variable: a (/home/u32/www/yiitest/protected/controllers/DbController.php:12)
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CController.php(287): DbController->runAction()
+#1 /home/u32/www/libraries/yiiframework/web/CController.php(266): DbController->runActionWithFilters()
+#2 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): DbController->run()
+#3 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#4 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/u32/www/yiitest/index.php(15): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/05/04 02:19:11 [error] [php] Undefined variable: a (/home/u32/www/yiitest/protected/controllers/DbController.php:12)
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CController.php(287): DbController->runAction()
+#1 /home/u32/www/libraries/yiiframework/web/CController.php(266): DbController->runActionWithFilters()
+#2 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): DbController->run()
+#3 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#4 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/u32/www/yiitest/index.php(15): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/05/04 02:19:11 [error] [php] Undefined variable: a (/home/u32/www/yiitest/protected/controllers/DbController.php:12)
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CController.php(287): DbController->runAction()
+#1 /home/u32/www/libraries/yiiframework/web/CController.php(266): DbController->runActionWithFilters()
+#2 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): DbController->run()
+#3 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#4 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/u32/www/yiitest/index.php(15): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/05/04 02:19:11 [error] [php] Undefined variable: a (/home/u32/www/yiitest/protected/controllers/DbController.php:12)
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CController.php(287): DbController->runAction()
+#1 /home/u32/www/libraries/yiiframework/web/CController.php(266): DbController->runActionWithFilters()
+#2 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): DbController->run()
+#3 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#4 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/u32/www/yiitest/index.php(15): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/05/04 02:19:11 [error] [php] Undefined variable: a (/home/u32/www/yiitest/protected/controllers/DbController.php:12)
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CController.php(287): DbController->runAction()
+#1 /home/u32/www/libraries/yiiframework/web/CController.php(266): DbController->runActionWithFilters()
+#2 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): DbController->run()
+#3 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#4 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/u32/www/yiitest/index.php(15): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/05/04 02:19:12 [error] [php] Undefined variable: a (/home/u32/www/yiitest/protected/controllers/DbController.php:12)
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CController.php(287): DbController->runAction()
+#1 /home/u32/www/libraries/yiiframework/web/CController.php(266): DbController->runActionWithFilters()
+#2 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): DbController->run()
+#3 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#4 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/u32/www/yiitest/index.php(15): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/05/04 02:19:12 [error] [php] Undefined variable: a (/home/u32/www/yiitest/protected/controllers/DbController.php:12)
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CController.php(287): DbController->runAction()
+#1 /home/u32/www/libraries/yiiframework/web/CController.php(266): DbController->runActionWithFilters()
+#2 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): DbController->run()
+#3 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#4 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/u32/www/yiitest/index.php(15): CWebApplication->run()
+REQUEST_URI=/db/test
+2014/05/04 02:19:12 [error] [php] Undefined variable: a (/home/u32/www/yiitest/protected/controllers/DbController.php:12)
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CController.php(287): DbController->runAction()
+#1 /home/u32/www/libraries/yiiframework/web/CController.php(266): DbController->runActionWithFilters()
+#2 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): DbController->run()
+#3 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#4 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/u32/www/yiitest/index.php(15): CWebApplication->run()
+REQUEST_URI=/db/test

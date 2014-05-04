@@ -2,9 +2,11 @@
 header("Content-Type:text/html; charset=utf-8");
 header("Cache-Control: no-store, no-cache, must-revalidate");
 
+defined('ROOT_PATH') or define('ROOT_PATH', dirname(__FILE__)); // 不包括 /
+
 // change the following paths if necessary
-$yii=dirname(__FILE__).'/libs/yiiframework/yii.php';
-$config=dirname(__FILE__).'/protected/config/main.php';
+$yii = ROOT_PATH . '/../libraries/yiiframework/yii.php';
+$config = ROOT_PATH . '/protected/config/main.php';
 
 // remove the following line when in production mode
 defined('YII_DEBUG') or define('YII_DEBUG', true); // 打开这个就没有debug效果
