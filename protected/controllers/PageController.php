@@ -65,7 +65,26 @@ class PageController extends Controller
         $this->raiseEvent('onAfter',$event);
     }
 
+    /**
+     * 测试IE9的ajax请求
+     */
+    public function actionAjax() {
+        if (Yii::app()->getRequest()->getIsPostRequest() && Yii::app()->getRequest()->getIsAjaxRequest()) {
+            $menus = Yii::app()->getRequest()->getParam('menus');
+            var_dump($menus);exit;
+        	echo 'yes';exit;
+        } else {
+        	echo 'no';exit;
+        }
+    	
+    }
     
+    /**
+     * 显示ajax请求
+     */
+    public function actionShow() {
+        $this->render('ajax');
+    }
     
     
 }
