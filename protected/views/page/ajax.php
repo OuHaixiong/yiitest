@@ -1,6 +1,7 @@
 <?php
 ?>
 <a id="ajaxRequest" href="javascript:;">点击ajax请求</a>
+<a id="ajaxRequest" href="http://res.csc86.com">测试修改链接</a>
 <script src="/js/jquery-1.10.2.js"></script>
 <script>
 $('#ajaxRequest').click(function (e) {

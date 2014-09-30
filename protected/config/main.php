@@ -35,6 +35,13 @@ return array(
 	            array('host'=>'server2', 'port'=>11211, 'weight'=>40),//缓存服务器2
 	        ),
 		), */
+
+        'cache' => array(
+            'class' => 'system.caching.CFileCache',
+            'cachePath' => ROOT_PATH . '/data/cache/',
+//             'directoryLevel' => 2
+        ),
+        
 	    
 		// uncomment the following to use a MySQL database
 		
@@ -73,7 +80,7 @@ return array(
 				// 如要将错误记录消息在网页上显示，取消下面的注释即可
 				/*
 				array(
-					'class'=>'CWebLogRoute',
+					'class'=>'CWebLogRoute', // 我们将看到被执行的 SQL 语句被显示在每个页面的底部
 				),
 				*/
 			),

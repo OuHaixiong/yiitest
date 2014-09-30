@@ -15,12 +15,44 @@ class WoController extends Controller
     }
     
     public function actionAbc() {
-    	echo 88;
+$url = 'http://263372.m.weimob.com/activity/ScratchCard?_tj_twtype=11&_tj_pid=263372&_tt=1&_tj_graphicid=35692&_tj_title=%E5%88%AE%E5%88%AE%E5%8D%A1%E6%B4%BB%E5%8A%A8%E5%BC%80%E5%A7%8B%E4%BA%86&_tj_keywords=%E5%88%AE%E5%88%AE%E5%8D%A1&id=35692&bid=261828&wechatid=oUISDuJd696h0daAPyjOPY4tfRIc&pid=263372&v=21e35ad41897dc76c7068b12682ad038';
+echo $this->requestUrl($url);
     }
     
-    public function actionBb($v1 = null) {
+    /**
+     * 通过curl访问网页
+     * @param unknown $url
+     * @param string $PostData
+     * @return mixed|string
+     */
+    final private function requestUrl( $url, $PostData=false ) {
+        try{
+            $ch = curl_init();
+            curl_setopt($ch, CURLOPT_URL, $url);
+            curl_setopt($ch, CURLOPT_USERAGENT, 'Mozilla/5.0 (Linux; U; Android 4.1.2; zh-cn; SCH-N719 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 MicroMessenger/5.3.0.51_r697493.440');
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+            curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 30); //链接超时时间
+            curl_setopt($ch, CURLOPT_HEADER, 0);
+            curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+            curl_setopt($ch, CURLOPT_SSLVERSION, 1);
+            if( $PostData ) {
+                curl_setopt($ch, CURLOPT_POST, true);
+                curl_setopt($ch, CURLOPT_POSTFIELDS, $PostData);
+            }
+    
+            $content = curl_exec($ch);
+            curl_close($ch);
+            return $content;
+        }
+        catch(Exception $error) {
+            return "";
+        }
+    }
+    
+    public function actionBb() {
+$url = 'http://263372.m.weimob.com/activity/ScratchCard?_tj_twtype=11&_tj_pid=263372&_tt=1&_tj_graphicid=35692&_tj_title=%E5%88%AE%E5%88%AE%E5%8D%A1%E6%B4%BB%E5%8A%A8%E5%BC%80%E5%A7%8B%E4%BA%86&_tj_keywords=%E5%88%AE%E5%88%AE%E5%8D%A1&id=35692&bid=261828&wechatid=oUISDuJd696h0daAPyjOPY4tfRIc&pid=263372&v=21e35ad41897dc76c7068b12682ad038';
+echo $this->requestUrl($url);
 
-        var_dump($_POST);exit;
     }
     
     public function actionTest() {

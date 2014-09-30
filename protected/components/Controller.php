@@ -36,4 +36,15 @@ class Controller extends CController
         return true;
     }
     
+    //<!-- 在所有的action执行后，数据数据已经渲染出来了
+    protected function afterAction($action) {
+    }
+    
+    //<!-- 在渲染之后，
+    protected function afterRender($view, &$output) {
+        $pattern = '/res.csc86.com/';
+        $replacement = 'res1.csc86.com';
+        $output = preg_replace($pattern, $replacement, $output);
+    }
+    
 }

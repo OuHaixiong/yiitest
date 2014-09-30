@@ -41,12 +41,13 @@ class PageController extends Controller
             $this->render('search');
         }
     }
+    
     public function onEndRequest() {}
     
     /**
-     * 练习
+     * Yii事件机制
      */
-    public function actionTest() {
+    public function actionEventHandler() {
 //         $this->attachEventHandler('onAfter', array('Events', 'getB')); //<!-- 类中的方法，不管静态或非静态都可以
 //         $this->attachEventHandler('onAfter', 'Events2::abc'); //<!--  类中的静态方法或非静态方法也可以 
 //         $this->attachEventHandler('onAfter', 'wokao'); //<!--  字符串，直接有的函数
@@ -57,7 +58,6 @@ class PageController extends Controller
         
         //Common_Tool::prePrint(Events::getB());
 //         $this->attachEventHandler('OnAddAfter', array(array('PushWeixin','memberMenu')),array($this->userID));
-
 
     }
     
@@ -86,5 +86,12 @@ class PageController extends Controller
         $this->render('ajax');
     }
     
-    
+    /**
+     * 测试
+     */
+    public function actionTest() {
+        $phone = '18345678910';
+        var_dump(Common_Tool::isMobile($phone));
+    }
+ 
 }
