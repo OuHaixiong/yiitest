@@ -1276,3 +1276,337 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/favicon.ico
 ---
+2014/10/10 15:04:55 [error] [php] include(Redis.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/home/u32/www/libraries/yiiframework/YiiBase.php:480)
+Stack trace:
+#0 /home/u32/www/yiitest/protected/controllers/CacheController.php(28): spl_autoload_call()
+#1 /home/u32/www/libraries/yiiframework/web/actions/CInlineAction.php(49): CacheController->actionRedis()
+#2 /home/u32/www/libraries/yiiframework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /home/u32/www/libraries/yiiframework/web/CController.php(287): CacheController->runAction()
+#4 /home/u32/www/libraries/yiiframework/web/CController.php(266): CacheController->runActionWithFilters()
+#5 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): CacheController->run()
+#6 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#7 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /home/u32/www/yiitest/index.php(17): CWebApplication->run()
+REQUEST_URI=/cache/redis
+2014/10/10 15:04:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/u32/www/libraries/yiiframework/web/CWebApplication.php:287
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u32/www/yiitest/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/10/10 15:04:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/u32/www/libraries/yiiframework/web/CWebApplication.php:287
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u32/www/yiitest/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/10/10 15:10:05 [error] [php] include(Redis.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/home/u32/www/libraries/yiiframework/YiiBase.php:480)
+Stack trace:
+#0 /home/u32/www/yiitest/protected/controllers/CacheController.php(28): spl_autoload_call()
+#1 /home/u32/www/libraries/yiiframework/web/actions/CInlineAction.php(49): CacheController->actionRedis()
+#2 /home/u32/www/libraries/yiiframework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /home/u32/www/libraries/yiiframework/web/CController.php(287): CacheController->runAction()
+#4 /home/u32/www/libraries/yiiframework/web/CController.php(266): CacheController->runActionWithFilters()
+#5 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): CacheController->run()
+#6 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#7 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /home/u32/www/yiitest/index.php(17): CWebApplication->run()
+REQUEST_URI=/cache/redis
+2014/10/10 15:10:32 [error] [php] include(Redis.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/home/u32/www/libraries/yiiframework/YiiBase.php:480)
+Stack trace:
+#0 /home/u32/www/yiitest/protected/controllers/CacheController.php(28): spl_autoload_call()
+#1 /home/u32/www/libraries/yiiframework/web/actions/CInlineAction.php(49): CacheController->actionRedis()
+#2 /home/u32/www/libraries/yiiframework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /home/u32/www/libraries/yiiframework/web/CController.php(287): CacheController->runAction()
+#4 /home/u32/www/libraries/yiiframework/web/CController.php(266): CacheController->runActionWithFilters()
+#5 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): CacheController->run()
+#6 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#7 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /home/u32/www/yiitest/index.php(17): CWebApplication->run()
+REQUEST_URI=/cache/redis
+2014/10/10 15:10:34 [error] [php] include(Redis.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/home/u32/www/libraries/yiiframework/YiiBase.php:480)
+Stack trace:
+#0 /home/u32/www/yiitest/protected/controllers/CacheController.php(28): spl_autoload_call()
+#1 /home/u32/www/libraries/yiiframework/web/actions/CInlineAction.php(49): CacheController->actionRedis()
+#2 /home/u32/www/libraries/yiiframework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /home/u32/www/libraries/yiiframework/web/CController.php(287): CacheController->runAction()
+#4 /home/u32/www/libraries/yiiframework/web/CController.php(266): CacheController->runActionWithFilters()
+#5 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): CacheController->run()
+#6 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#7 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /home/u32/www/yiitest/index.php(17): CWebApplication->run()
+REQUEST_URI=/cache/redis
+2014/10/10 15:10:35 [error] [php] include(Redis.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/home/u32/www/libraries/yiiframework/YiiBase.php:480)
+Stack trace:
+#0 /home/u32/www/yiitest/protected/controllers/CacheController.php(28): spl_autoload_call()
+#1 /home/u32/www/libraries/yiiframework/web/actions/CInlineAction.php(49): CacheController->actionRedis()
+#2 /home/u32/www/libraries/yiiframework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /home/u32/www/libraries/yiiframework/web/CController.php(287): CacheController->runAction()
+#4 /home/u32/www/libraries/yiiframework/web/CController.php(266): CacheController->runActionWithFilters()
+#5 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): CacheController->run()
+#6 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#7 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /home/u32/www/yiitest/index.php(17): CWebApplication->run()
+REQUEST_URI=/cache/redis
+2014/10/10 15:10:35 [error] [php] include(Redis.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/home/u32/www/libraries/yiiframework/YiiBase.php:480)
+Stack trace:
+#0 /home/u32/www/yiitest/protected/controllers/CacheController.php(28): spl_autoload_call()
+#1 /home/u32/www/libraries/yiiframework/web/actions/CInlineAction.php(49): CacheController->actionRedis()
+#2 /home/u32/www/libraries/yiiframework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /home/u32/www/libraries/yiiframework/web/CController.php(287): CacheController->runAction()
+#4 /home/u32/www/libraries/yiiframework/web/CController.php(266): CacheController->runActionWithFilters()
+#5 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): CacheController->run()
+#6 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#7 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /home/u32/www/yiitest/index.php(17): CWebApplication->run()
+REQUEST_URI=/cache/redis
+2014/10/10 15:10:35 [error] [php] include(Redis.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/home/u32/www/libraries/yiiframework/YiiBase.php:480)
+Stack trace:
+#0 /home/u32/www/yiitest/protected/controllers/CacheController.php(28): spl_autoload_call()
+#1 /home/u32/www/libraries/yiiframework/web/actions/CInlineAction.php(49): CacheController->actionRedis()
+#2 /home/u32/www/libraries/yiiframework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /home/u32/www/libraries/yiiframework/web/CController.php(287): CacheController->runAction()
+#4 /home/u32/www/libraries/yiiframework/web/CController.php(266): CacheController->runActionWithFilters()
+#5 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): CacheController->run()
+#6 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#7 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /home/u32/www/yiitest/index.php(17): CWebApplication->run()
+REQUEST_URI=/cache/redis
+2014/10/10 15:10:36 [error] [php] include(Redis.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/home/u32/www/libraries/yiiframework/YiiBase.php:480)
+Stack trace:
+#0 /home/u32/www/yiitest/protected/controllers/CacheController.php(28): spl_autoload_call()
+#1 /home/u32/www/libraries/yiiframework/web/actions/CInlineAction.php(49): CacheController->actionRedis()
+#2 /home/u32/www/libraries/yiiframework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /home/u32/www/libraries/yiiframework/web/CController.php(287): CacheController->runAction()
+#4 /home/u32/www/libraries/yiiframework/web/CController.php(266): CacheController->runActionWithFilters()
+#5 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): CacheController->run()
+#6 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#7 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /home/u32/www/yiitest/index.php(17): CWebApplication->run()
+REQUEST_URI=/cache/redis
+2014/10/10 15:10:36 [error] [php] include(Redis.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/home/u32/www/libraries/yiiframework/YiiBase.php:480)
+Stack trace:
+#0 /home/u32/www/yiitest/protected/controllers/CacheController.php(28): spl_autoload_call()
+#1 /home/u32/www/libraries/yiiframework/web/actions/CInlineAction.php(49): CacheController->actionRedis()
+#2 /home/u32/www/libraries/yiiframework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /home/u32/www/libraries/yiiframework/web/CController.php(287): CacheController->runAction()
+#4 /home/u32/www/libraries/yiiframework/web/CController.php(266): CacheController->runActionWithFilters()
+#5 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): CacheController->run()
+#6 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#7 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /home/u32/www/yiitest/index.php(17): CWebApplication->run()
+REQUEST_URI=/cache/redis
+2014/10/10 15:10:36 [error] [php] include(Redis.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/home/u32/www/libraries/yiiframework/YiiBase.php:480)
+Stack trace:
+#0 /home/u32/www/yiitest/protected/controllers/CacheController.php(28): spl_autoload_call()
+#1 /home/u32/www/libraries/yiiframework/web/actions/CInlineAction.php(49): CacheController->actionRedis()
+#2 /home/u32/www/libraries/yiiframework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /home/u32/www/libraries/yiiframework/web/CController.php(287): CacheController->runAction()
+#4 /home/u32/www/libraries/yiiframework/web/CController.php(266): CacheController->runActionWithFilters()
+#5 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): CacheController->run()
+#6 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#7 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /home/u32/www/yiitest/index.php(17): CWebApplication->run()
+REQUEST_URI=/cache/redis
+2014/10/10 15:10:37 [error] [php] include(Redis.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/home/u32/www/libraries/yiiframework/YiiBase.php:480)
+Stack trace:
+#0 /home/u32/www/yiitest/protected/controllers/CacheController.php(28): spl_autoload_call()
+#1 /home/u32/www/libraries/yiiframework/web/actions/CInlineAction.php(49): CacheController->actionRedis()
+#2 /home/u32/www/libraries/yiiframework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /home/u32/www/libraries/yiiframework/web/CController.php(287): CacheController->runAction()
+#4 /home/u32/www/libraries/yiiframework/web/CController.php(266): CacheController->runActionWithFilters()
+#5 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): CacheController->run()
+#6 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#7 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /home/u32/www/yiitest/index.php(17): CWebApplication->run()
+REQUEST_URI=/cache/redis
+2014/10/10 15:10:37 [error] [php] include(Redis.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/home/u32/www/libraries/yiiframework/YiiBase.php:480)
+Stack trace:
+#0 /home/u32/www/yiitest/protected/controllers/CacheController.php(28): spl_autoload_call()
+#1 /home/u32/www/libraries/yiiframework/web/actions/CInlineAction.php(49): CacheController->actionRedis()
+#2 /home/u32/www/libraries/yiiframework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /home/u32/www/libraries/yiiframework/web/CController.php(287): CacheController->runAction()
+#4 /home/u32/www/libraries/yiiframework/web/CController.php(266): CacheController->runActionWithFilters()
+#5 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): CacheController->run()
+#6 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#7 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /home/u32/www/yiitest/index.php(17): CWebApplication->run()
+REQUEST_URI=/cache/redis
+2014/10/10 15:10:37 [error] [php] include(Redis.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/home/u32/www/libraries/yiiframework/YiiBase.php:480)
+Stack trace:
+#0 /home/u32/www/yiitest/protected/controllers/CacheController.php(28): spl_autoload_call()
+#1 /home/u32/www/libraries/yiiframework/web/actions/CInlineAction.php(49): CacheController->actionRedis()
+#2 /home/u32/www/libraries/yiiframework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /home/u32/www/libraries/yiiframework/web/CController.php(287): CacheController->runAction()
+#4 /home/u32/www/libraries/yiiframework/web/CController.php(266): CacheController->runActionWithFilters()
+#5 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): CacheController->run()
+#6 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#7 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /home/u32/www/yiitest/index.php(17): CWebApplication->run()
+REQUEST_URI=/cache/redis
+2014/10/10 15:10:38 [error] [php] include(Redis.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/home/u32/www/libraries/yiiframework/YiiBase.php:480)
+Stack trace:
+#0 /home/u32/www/yiitest/protected/controllers/CacheController.php(28): spl_autoload_call()
+#1 /home/u32/www/libraries/yiiframework/web/actions/CInlineAction.php(49): CacheController->actionRedis()
+#2 /home/u32/www/libraries/yiiframework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /home/u32/www/libraries/yiiframework/web/CController.php(287): CacheController->runAction()
+#4 /home/u32/www/libraries/yiiframework/web/CController.php(266): CacheController->runActionWithFilters()
+#5 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): CacheController->run()
+#6 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#7 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /home/u32/www/yiitest/index.php(17): CWebApplication->run()
+REQUEST_URI=/cache/redis
+2014/10/10 15:10:38 [error] [php] include(Redis.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/home/u32/www/libraries/yiiframework/YiiBase.php:480)
+Stack trace:
+#0 /home/u32/www/yiitest/protected/controllers/CacheController.php(28): spl_autoload_call()
+#1 /home/u32/www/libraries/yiiframework/web/actions/CInlineAction.php(49): CacheController->actionRedis()
+#2 /home/u32/www/libraries/yiiframework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /home/u32/www/libraries/yiiframework/web/CController.php(287): CacheController->runAction()
+#4 /home/u32/www/libraries/yiiframework/web/CController.php(266): CacheController->runActionWithFilters()
+#5 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): CacheController->run()
+#6 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#7 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /home/u32/www/yiitest/index.php(17): CWebApplication->run()
+REQUEST_URI=/cache/redis
+2014/10/10 15:10:39 [error] [php] include(Redis.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/home/u32/www/libraries/yiiframework/YiiBase.php:480)
+Stack trace:
+#0 /home/u32/www/yiitest/protected/controllers/CacheController.php(28): spl_autoload_call()
+#1 /home/u32/www/libraries/yiiframework/web/actions/CInlineAction.php(49): CacheController->actionRedis()
+#2 /home/u32/www/libraries/yiiframework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /home/u32/www/libraries/yiiframework/web/CController.php(287): CacheController->runAction()
+#4 /home/u32/www/libraries/yiiframework/web/CController.php(266): CacheController->runActionWithFilters()
+#5 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): CacheController->run()
+#6 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#7 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /home/u32/www/yiitest/index.php(17): CWebApplication->run()
+REQUEST_URI=/cache/redis
+2014/10/10 15:10:39 [error] [php] include(Redis.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/home/u32/www/libraries/yiiframework/YiiBase.php:480)
+Stack trace:
+#0 /home/u32/www/yiitest/protected/controllers/CacheController.php(28): spl_autoload_call()
+#1 /home/u32/www/libraries/yiiframework/web/actions/CInlineAction.php(49): CacheController->actionRedis()
+#2 /home/u32/www/libraries/yiiframework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /home/u32/www/libraries/yiiframework/web/CController.php(287): CacheController->runAction()
+#4 /home/u32/www/libraries/yiiframework/web/CController.php(266): CacheController->runActionWithFilters()
+#5 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): CacheController->run()
+#6 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#7 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /home/u32/www/yiitest/index.php(17): CWebApplication->run()
+REQUEST_URI=/cache/redis
+2014/10/10 15:10:39 [error] [php] include(Redis.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/home/u32/www/libraries/yiiframework/YiiBase.php:480)
+Stack trace:
+#0 /home/u32/www/yiitest/protected/controllers/CacheController.php(28): spl_autoload_call()
+#1 /home/u32/www/libraries/yiiframework/web/actions/CInlineAction.php(49): CacheController->actionRedis()
+#2 /home/u32/www/libraries/yiiframework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /home/u32/www/libraries/yiiframework/web/CController.php(287): CacheController->runAction()
+#4 /home/u32/www/libraries/yiiframework/web/CController.php(266): CacheController->runActionWithFilters()
+#5 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): CacheController->run()
+#6 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#7 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /home/u32/www/yiitest/index.php(17): CWebApplication->run()
+REQUEST_URI=/cache/redis
+2014/10/10 15:10:39 [error] [php] include(Redis.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/home/u32/www/libraries/yiiframework/YiiBase.php:480)
+Stack trace:
+#0 /home/u32/www/yiitest/protected/controllers/CacheController.php(28): spl_autoload_call()
+#1 /home/u32/www/libraries/yiiframework/web/actions/CInlineAction.php(49): CacheController->actionRedis()
+#2 /home/u32/www/libraries/yiiframework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /home/u32/www/libraries/yiiframework/web/CController.php(287): CacheController->runAction()
+#4 /home/u32/www/libraries/yiiframework/web/CController.php(266): CacheController->runActionWithFilters()
+#5 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): CacheController->run()
+#6 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#7 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /home/u32/www/yiitest/index.php(17): CWebApplication->run()
+REQUEST_URI=/cache/redis
+2014/10/10 15:46:21 [error] [exception.RedisException] exception 'RedisException' with message 'Redis server went away' in /home/u32/www/yiitest/protected/controllers/CacheController.php:31
+Stack trace:
+#0 /home/u32/www/yiitest/protected/controllers/CacheController.php(31): Redis->set('key', '????????????')
+#1 /home/u32/www/libraries/yiiframework/web/actions/CInlineAction.php(49): CacheController->actionRedis()
+#2 /home/u32/www/libraries/yiiframework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /home/u32/www/libraries/yiiframework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /home/u32/www/libraries/yiiframework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): CController->run('redis')
+#6 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('cache/redis')
+#7 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /home/u32/www/yiitest/index.php(17): CApplication->run()
+#9 {main}
+REQUEST_URI=/cache/redis
+---
+2014/10/10 15:49:47 [error] [exception.RedisException] exception 'RedisException' with message 'Redis server went away' in /home/u32/www/yiitest/protected/controllers/CacheController.php:31
+Stack trace:
+#0 /home/u32/www/yiitest/protected/controllers/CacheController.php(31): Redis->set('key', '????????????')
+#1 /home/u32/www/libraries/yiiframework/web/actions/CInlineAction.php(49): CacheController->actionRedis()
+#2 /home/u32/www/libraries/yiiframework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /home/u32/www/libraries/yiiframework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /home/u32/www/libraries/yiiframework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): CController->run('redis')
+#6 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('cache/redis')
+#7 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /home/u32/www/yiitest/index.php(17): CApplication->run()
+#9 {main}
+REQUEST_URI=/cache/redis
+---
+2014/10/10 15:49:50 [error] [exception.RedisException] exception 'RedisException' with message 'Redis server went away' in /home/u32/www/yiitest/protected/controllers/CacheController.php:31
+Stack trace:
+#0 /home/u32/www/yiitest/protected/controllers/CacheController.php(31): Redis->set('key', '????????????')
+#1 /home/u32/www/libraries/yiiframework/web/actions/CInlineAction.php(49): CacheController->actionRedis()
+#2 /home/u32/www/libraries/yiiframework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /home/u32/www/libraries/yiiframework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /home/u32/www/libraries/yiiframework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): CController->run('redis')
+#6 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('cache/redis')
+#7 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /home/u32/www/yiitest/index.php(17): CApplication->run()
+#9 {main}
+REQUEST_URI=/cache/redis
+---
+2014/10/10 15:52:17 [error] [exception.RedisException] exception 'RedisException' with message 'Redis server went away' in /home/u32/www/yiitest/protected/controllers/CacheController.php:31
+Stack trace:
+#0 /home/u32/www/yiitest/protected/controllers/CacheController.php(31): Redis->set('key', '????????????')
+#1 /home/u32/www/libraries/yiiframework/web/actions/CInlineAction.php(49): CacheController->actionRedis()
+#2 /home/u32/www/libraries/yiiframework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /home/u32/www/libraries/yiiframework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /home/u32/www/libraries/yiiframework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): CController->run('redis')
+#6 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('cache/redis')
+#7 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /home/u32/www/yiitest/index.php(17): CApplication->run()
+#9 {main}
+REQUEST_URI=/cache/redis
+---
+2014/10/16 15:13:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gearman/client".' in /home/u32/www/libraries/yiiframework/web/CWebApplication.php:287
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('gearman/client')
+#1 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u32/www/yiitest/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/gearman/client
+---
+2014/10/16 15:13:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/u32/www/libraries/yiiframework/web/CWebApplication.php:287
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u32/www/yiitest/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/10/16 15:13:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/u32/www/libraries/yiiframework/web/CWebApplication.php:287
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u32/www/yiitest/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/10/16 15:13:29 [error] [php] GearmanClient::do() [<a href='gearmanclient.do'>gearmanclient.do</a>]: Use GearmanClient::doNormal() (/home/u32/www/yiitest/protected/controllers/GearmanController.php:18)
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CController.php(309): CInlineAction->runWithParams()
+#1 /home/u32/www/libraries/yiiframework/web/CController.php(287): GearmanController->runAction()
+#2 /home/u32/www/libraries/yiiframework/web/CController.php(266): GearmanController->runActionWithFilters()
+#3 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): GearmanController->run()
+#4 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#5 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /home/u32/www/yiitest/index.php(17): CWebApplication->run()
+REQUEST_URI=/gearman/client
