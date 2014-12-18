@@ -114,7 +114,7 @@ class DbController extends Controller
         $data['sign'] = 'this is a sign\'); delete FROM tb_user_member;';
         $boolean = $ar->create($data); // CDbConnection
 
-        Common_Tool::prePrint($boolean);
+        Common_Tool::prePrint($boolean, false);
     }
 
 }
