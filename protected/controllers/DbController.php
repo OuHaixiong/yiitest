@@ -39,7 +39,7 @@ class DbController extends Controller
         	// replace the placeholder ":email" with the actual email value
         	$command->bindParam(":email",$email,PDO::PARAM_STR);
         	$command->execute();
-        	// insert another row with a new set of parameters
+        	// insert another row with a new set of parameters （使用新的参数集插入另一行）插入第二条数据
         	$command->bindParam(":username",$username2,PDO::PARAM_STR);
         	$command->bindParam(":email",$email2,PDO::PARAM_STR);
         	$command->execute(); */
@@ -74,6 +74,47 @@ class DbController extends Controller
         } catch (Exception $e) {
             Common_Tool::prePrint($e->getMessage());
         }   
+    }
+    
+    /**
+     * 测试sql注入
+     */
+    public function actionSqlInjection() {//         /db/sqlInjection?id=101; delete FROM tb_user_member where user_id=28
+        $id = Yii::app()->request->getParam('id', 0);
+        $db = Yii::app()->db;
+//         $db = new CDbConnection();
+        $id = $db->quoteValue($id); // 加引号, 特别注意了，这里加完引号后是单引号，然后字符串中如果有单引号的话，会自动转义掉
+        $sql = "select * from `tb_user_member` where `user_id`={$id}";  Common_Tool::prePrint($sql);
+        $result = $db->createCommand($sql)->queryAll();
+        Common_Tool::prePrint($result);
+    }
+    
+    /**
+     * XSS攻击
+     */
+    public function actionXss() {//  /db/xss?abc=101;%27%20%3Cscript%3Ealert%2888%29;%3C/script%3E
+    	$abc = Yii::app()->request->getParam('abc');
+    	echo CHtml::encode($abc);
+    	$html = '<h2>这里是html的H2</h2><p>哦哦啊啊';
+//     	echo CHtml::encode($html);
+		$htmlPurifier = new CHtmlPurifier(); 
+    	echo $htmlPurifier->purify($html); // 很好，很强大，在页面如果变量是html格式，就按这个输出，它会帮你补全html标签
+    }
+    
+    /**
+     * 测试save 方法是否有防sql攻击
+     */
+    public function actionCreate() {
+        $ar = new UserMember();
+        $data = array();
+        $data['accountNum'] = 60975;
+        $data['nickname'] = '欧海雄';
+        $data['email'] = '258333309@qq.com';
+        $data['phoneNum'] = '15019261350';
+        $data['sign'] = 'this is a sign\'); delete FROM tb_user_member;';
+        $boolean = $ar->create($data); // CDbConnection
+
+        Common_Tool::prePrint($boolean);
     }
 
 }

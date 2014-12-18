@@ -90,8 +90,7 @@ class PageController extends Controller
      * 测试
      */
     public function actionTest() {
-        $phone = '18345678910';
-        var_dump(Common_Tool::isMobile($phone));
+    
     }
  
 }

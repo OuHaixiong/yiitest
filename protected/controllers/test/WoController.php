@@ -56,12 +56,36 @@ echo $this->requestUrl($url);
     }
     
     public function actionTest() {
-    	$str = '';
-    	if ($str) {
-    		echo 'Y';
-    	} else {
-    		echo 'No';
-    	} 
+        $str = '{"status":false,"msg":"\u53c2\u6570\u9519\u8bef"}';
+        $str = json_decode($str);
+        var_dump($str);
+        
+        $request = '<xml><OpenId><![CDATA[oEQpDuCgUw_WQxtflHQ4PgwJnVGc]]></OpenId>
+<AppId><![CDATA[wx21d9ed144936561c]]></AppId>
+<IsSubscribe>1</IsSubscribe>
+<TimeStamp>1415176968</TimeStamp>
+<NonceStr><![CDATA[zQgIHeSTiHLqYKuH]]></NonceStr>
+<AppSignature><![CDATA[67d105bbf9616df1e2e3dfa628c01598cdf30e95]]></AppSignature>
+<SignMethod><![CDATA[sha1]]></SignMethod>
+</xml>';
+        $params = '{"attach":"e3dffe06-203d-4ac6-83a3-da292a936286|631","bank_billno":"201411055650863","bank_type":"3006","discount":"0","fee_type":"1","input_charset":"UTF-8","notify_id":"-Uu5A93xXSgFahHBp5rhazS5jkett0EBNgj_u-iFEJ0Tfv2I5x_nlCiYUdzpfn00u7iByEV9meSHUHb3iRBMFYRBico11RBY","out_trade_no":"f3a6865c9b0b4b9da97a01806e7f1999","partner":"1220432101","product_fee":"1","sign":"8E45777CB639D90A0AB3469B011081A8","sign_type":"MD5","time_end":"20141105164248","total_fee":"1","trade_mode":"1","trade_state":"0","transaction_id":"1220432101201411056155461293","transport_fee":"0"}';
+        $data = array('attach'=>'e3dffe06-203d-4ac6-83a3-da292a936286|631');
+        
+        $xml = simplexml_load_string( $request, 'SimpleXMLElement', LIBXML_NOCDATA );
+        if (($xml instanceof SimpleXMLElement) && isset($xml->OpenId) && isset($data['attach'])) {
+            $attach = explode('|', $data['attach']);
+            $url = 'http://wslm.dev.csc86.com/life/send';
+            $data = array(
+                'type'    => 1,
+                'toUser'  => $xml->OpenId->__toString(),
+                'orderId' => $attach[1],
+                'userId'  => $attach[0],
+            );
+            var_dump($data);exit;
+            $boolean = $this->requestUrl($url, $data);
+            var_dump($boolean);
+        }
+        
     }
     
     public function filters() { //<!-- 覆盖父类的此方法,可对每一个action执行之前进行过滤

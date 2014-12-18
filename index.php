@@ -10,8 +10,15 @@ defined('ROOT_PATH') or define('ROOT_PATH', dirname(__FILE__)); // 不包括 /
 $yii = ROOT_PATH . '/../libraries/yiiframework/yii.php';
 $config = ROOT_PATH . '/protected/config/main.php';
 
+// $config = ROOT_PATH . '/protected/config/main2.php';  // 用命令行模式运的配置
+// if( isset($argv[1]) ){
+// 	$_GET['r'] = $argv[1];
+// }
+
 // remove the following line when in production mode
 defined('YII_DEBUG') or define('YII_DEBUG', true); // 打开这个就没有debug效果
 
+
+// var_dump($argv[1]);exit;
 require_once($yii);
 Yii::createWebApplication($config)->run();

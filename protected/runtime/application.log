@@ -1610,3 +1610,611 @@ Stack trace:
 #5 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
 #6 /home/u32/www/yiitest/index.php(17): CWebApplication->run()
 REQUEST_URI=/gearman/client
+2014/10/17 09:40:58 [error] [exception.GearmanException] exception 'GearmanException' with message 'Failed to set exception option' in /home/u32/www/yiitest/protected/controllers/GearmanController.php:17
+Stack trace:
+#0 /home/u32/www/yiitest/protected/controllers/GearmanController.php(17): GearmanClient->addServer('192.168.17.130', 4730)
+#1 /home/u32/www/libraries/yiiframework/web/actions/CInlineAction.php(49): GearmanController->actionClient()
+#2 /home/u32/www/libraries/yiiframework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /home/u32/www/libraries/yiiframework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /home/u32/www/libraries/yiiframework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): CController->run('client')
+#6 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('gearman/client')
+#7 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /home/u32/www/yiitest/index.php(17): CApplication->run()
+#9 {main}
+REQUEST_URI=/gearman/client
+---
+2014/10/17 09:41:10 [error] [exception.GearmanException] exception 'GearmanException' with message 'Failed to set exception option' in /home/u32/www/yiitest/protected/controllers/GearmanController.php:17
+Stack trace:
+#0 /home/u32/www/yiitest/protected/controllers/GearmanController.php(17): GearmanClient->addServer('192.168.17.130', 4730)
+#1 /home/u32/www/libraries/yiiframework/web/actions/CInlineAction.php(49): GearmanController->actionClient()
+#2 /home/u32/www/libraries/yiiframework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#3 /home/u32/www/libraries/yiiframework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#4 /home/u32/www/libraries/yiiframework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): CController->run('client')
+#6 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('gearman/client')
+#7 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /home/u32/www/yiitest/index.php(17): CApplication->run()
+#9 {main}
+REQUEST_URI=/gearman/client
+---
+2014/10/17 09:41:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/u32/www/libraries/yiiframework/web/CWebApplication.php:287
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u32/www/yiitest/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/10/17 09:41:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/u32/www/libraries/yiiframework/web/CWebApplication.php:287
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u32/www/yiitest/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/10/24 16:03:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/u32/www/libraries/yiiframework/web/CWebApplication.php:287
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u32/www/yiitest/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/10/24 16:03:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/u32/www/libraries/yiiframework/web/CWebApplication.php:287
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u32/www/yiitest/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/11/05 17:00:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/u32/www/libraries/yiiframework/web/CWebApplication.php:287
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u32/www/yiitest/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/11/05 17:00:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/u32/www/libraries/yiiframework/web/CWebApplication.php:287
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u32/www/yiitest/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/11/05 17:00:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/u32/www/libraries/yiiframework/web/CWebApplication.php:287
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u32/www/yiitest/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/11/11 20:24:08 [error] [php] include(XS.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/home/u32/www/libraries/yiiframework/YiiBase.php:480)
+Stack trace:
+#0 /home/u32/www/yiitest/protected/controllers/XunsearchController.php(17): spl_autoload_call()
+#1 /home/u32/www/libraries/yiiframework/web/actions/CInlineAction.php(49): XunsearchController->actionConnect()
+#2 /home/u32/www/libraries/yiiframework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /home/u32/www/libraries/yiiframework/web/CController.php(287): XunsearchController->runAction()
+#4 /home/u32/www/libraries/yiiframework/web/CController.php(266): XunsearchController->runActionWithFilters()
+#5 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): XunsearchController->run()
+#6 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#7 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /home/u32/www/yiitest/index.php(17): CWebApplication->run()
+REQUEST_URI=/xunsearch/connect
+2014/11/11 20:24:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/u32/www/libraries/yiiframework/web/CWebApplication.php:287
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u32/www/yiitest/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/11/11 20:24:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/u32/www/libraries/yiiframework/web/CWebApplication.php:287
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u32/www/yiitest/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/11/12 09:08:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/u32/www/libraries/yiiframework/web/CWebApplication.php:287
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u32/www/yiitest/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/11/12 09:08:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/u32/www/libraries/yiiframework/web/CWebApplication.php:287
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u32/www/yiitest/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/11/12 17:06:35 [error] [exception.XSException] [XSException] ../libraries/xunsearch/lib/XS.php(2369): Syntax: <expression> OR <expression>(S#515)
+REQUEST_URI=/xunsearch/searchWeiMeng
+---
+2014/11/12 17:06:44 [error] [exception.XSException] [XSException] ../libraries/xunsearch/lib/XS.php(2369): Syntax: <expression> OR <expression>(S#515)
+REQUEST_URI=/xunsearch/searchWeiMeng
+---
+2014/11/12 18:49:26 [error] [exception.XSErrorException] [XSErrorException] ../libraries/xunsearch/lib/XS.php(1483): Missing argument 1 for XSSearch::setQuery(), called in /home/u32/www/yiitest/protected/controllers/XunsearchController.php on line 121 and defined(2)
+REQUEST_URI=/xunsearch/searchWeiMeng
+---
+2014/11/12 18:49:28 [error] [exception.XSErrorException] [XSErrorException] ../libraries/xunsearch/lib/XS.php(1483): Missing argument 1 for XSSearch::setQuery(), called in /home/u32/www/yiitest/protected/controllers/XunsearchController.php on line 121 and defined(2)
+REQUEST_URI=/xunsearch/searchWeiMeng
+---
+2014/11/12 20:19:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/u32/www/libraries/yiiframework/web/CWebApplication.php:287
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u32/www/yiitest/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/11/12 20:19:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/u32/www/libraries/yiiframework/web/CWebApplication.php:287
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u32/www/yiitest/index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/11/12 20:24:44 [error] [exception.XSErrorException] [XSErrorException] ../libraries/xunsearch/lib/XS.php(1483): Missing argument 1 for XSSearch::setQuery(), called in /home/u32/www/yiitest/protected/controllers/XunsearchController.php on line 121 and defined(2)
+REQUEST_URI=/xunsearch/searchWeiMeng
+---
+2014/11/26 11:20:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/libraries/yiiframework/web/CController.php:486
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/11/26 11:20:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/libraries/yiiframework/web/CController.php:486
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/11/26 11:20:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/libraries/yiiframework/web/CController.php:486
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/page/test
+---
+2014/11/26 11:20:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/libraries/yiiframework/web/CController.php:486
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?page/test
+---
+2014/12/09 13:42:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/libraries/yiiframework/web/CController.php:486
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/page/test
+---
+2014/12/09 13:42:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/libraries/yiiframework/web/CController.php:486
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/12/09 13:42:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/libraries/yiiframework/web/CController.php:486
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/12/09 13:42:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/libraries/yiiframework/web/CController.php:486
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/page/test
+---
+2014/12/09 13:42:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/libraries/yiiframework/web/CController.php:486
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/page/test
+---
+2014/12/09 13:43:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/libraries/yiiframework/web/CController.php:486
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/page/test
+---
+2014/12/09 13:43:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/libraries/yiiframework/web/CController.php:486
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/page/test
+---
+2014/12/09 13:43:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/libraries/yiiframework/web/CController.php:486
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/page/test
+---
+2014/12/09 13:43:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/libraries/yiiframework/web/CController.php:486
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/page/test
+---
+2014/12/09 13:43:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/libraries/yiiframework/web/CController.php:486
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/page/test
+---
+2014/12/09 13:43:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/libraries/yiiframework/web/CController.php:486
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/page/test
+---
+2014/12/09 13:43:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/libraries/yiiframework/web/CController.php:486
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/page/test
+---
+2014/12/09 13:43:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/libraries/yiiframework/web/CController.php:486
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/page
+---
+2014/12/09 13:43:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/libraries/yiiframework/web/CController.php:486
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/page
+---
+2014/12/09 13:43:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/libraries/yiiframework/web/CController.php:486
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/page
+---
+2014/12/09 13:43:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/libraries/yiiframework/web/CController.php:486
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/page
+---
+2014/12/09 13:43:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/libraries/yiiframework/web/CController.php:486
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/page
+---
+2014/12/09 13:43:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/libraries/yiiframework/web/CController.php:486
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/page
+---
+2014/12/09 13:43:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/libraries/yiiframework/web/CController.php:486
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/page
+---
+2014/12/09 13:43:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/libraries/yiiframework/web/CController.php:486
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/page
+---
+2014/12/09 13:43:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/libraries/yiiframework/web/CController.php:486
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/page
+---
+2014/12/09 13:44:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/libraries/yiiframework/web/CController.php:486
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/Xunsearch
+---
+2014/12/09 13:45:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/libraries/yiiframework/web/CController.php:486
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/xunsearch/Connect
+---
+2014/12/09 13:47:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/u32/www/libraries/yiiframework/web/CController.php:486
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CController.php(271): CController->missingAction('')
+#1 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): CController->run('')
+#2 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('')
+#3 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/u32/www/yiitest/index.php(22): CApplication->run()
+#5 {main}
+REQUEST_URI=/xunsearch/connect
+---
+2014/12/09 14:07:52 [error] [php] include(QRcode.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/home/u32/www/libraries/yiiframework/YiiBase.php:480)
+Stack trace:
+#0 /home/u32/www/yiitest/protected/controllers/PageController.php(95): spl_autoload_call()
+#1 /home/u32/www/libraries/yiiframework/web/actions/CInlineAction.php(49): PageController->actionTest()
+#2 /home/u32/www/libraries/yiiframework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /home/u32/www/libraries/yiiframework/web/CController.php(287): PageController->runAction()
+#4 /home/u32/www/libraries/yiiframework/web/CController.php(266): PageController->runActionWithFilters()
+#5 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): PageController->run()
+#6 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#7 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /home/u32/www/yiitest/index.php(24): CWebApplication->run()
+REQUEST_URI=/page/test
+2014/12/09 15:13:32 [error] [php] include(QRcode.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/home/u32/www/libraries/yiiframework/YiiBase.php:480)
+Stack trace:
+#0 /home/u32/www/yiitest/protected/controllers/PageController.php(95): spl_autoload_call()
+#1 /home/u32/www/libraries/yiiframework/web/actions/CInlineAction.php(49): PageController->actionTest()
+#2 /home/u32/www/libraries/yiiframework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /home/u32/www/libraries/yiiframework/web/CController.php(287): PageController->runAction()
+#4 /home/u32/www/libraries/yiiframework/web/CController.php(266): PageController->runActionWithFilters()
+#5 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): PageController->run()
+#6 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#7 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /home/u32/www/yiitest/index.php(24): CWebApplication->run()
+REQUEST_URI=/page/test
+2014/12/09 15:13:33 [error] [php] include(QRcode.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/home/u32/www/libraries/yiiframework/YiiBase.php:480)
+Stack trace:
+#0 /home/u32/www/yiitest/protected/controllers/PageController.php(95): spl_autoload_call()
+#1 /home/u32/www/libraries/yiiframework/web/actions/CInlineAction.php(49): PageController->actionTest()
+#2 /home/u32/www/libraries/yiiframework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /home/u32/www/libraries/yiiframework/web/CController.php(287): PageController->runAction()
+#4 /home/u32/www/libraries/yiiframework/web/CController.php(266): PageController->runActionWithFilters()
+#5 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): PageController->run()
+#6 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#7 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /home/u32/www/yiitest/index.php(24): CWebApplication->run()
+REQUEST_URI=/page/test
+2014/12/09 16:24:15 [error] [php] include(QRcode.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/home/u32/www/libraries/yiiframework/YiiBase.php:480)
+Stack trace:
+#0 /home/u32/www/yiitest/protected/controllers/QrcodeController.php(19): spl_autoload_call()
+#1 /home/u32/www/libraries/yiiframework/web/actions/CInlineAction.php(49): QrcodeController->actionView()
+#2 /home/u32/www/libraries/yiiframework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /home/u32/www/libraries/yiiframework/web/CController.php(287): QrcodeController->runAction()
+#4 /home/u32/www/libraries/yiiframework/web/CController.php(266): QrcodeController->runActionWithFilters()
+#5 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): QrcodeController->run()
+#6 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#7 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /home/u32/www/yiitest/index.php(24): CWebApplication->run()
+REQUEST_URI=/qrcode/view
+2014/12/09 17:17:56 [error] [php] require_once(/home/u32/www/libraries/yiiframework/phpqrcode.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory (/home/u32/www/yiitest/protected/controllers/QrcodeController.php:18)
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CController.php(309): CInlineAction->runWithParams()
+#1 /home/u32/www/libraries/yiiframework/web/CController.php(287): QrcodeController->runAction()
+#2 /home/u32/www/libraries/yiiframework/web/CController.php(266): QrcodeController->runActionWithFilters()
+#3 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): QrcodeController->run()
+#4 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#5 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /home/u32/www/yiitest/index.php(24): CWebApplication->run()
+REQUEST_URI=/qrcode/view
+2014/12/09 19:09:44 [error] [php] include(QRcode.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/home/u32/www/libraries/yiiframework/YiiBase.php:480)
+Stack trace:
+#0 /home/u32/www/yiitest/protected/controllers/QrcodeController.php(38): spl_autoload_call()
+#1 /home/u32/www/libraries/yiiframework/web/actions/CInlineAction.php(49): QrcodeController->actionShow()
+#2 /home/u32/www/libraries/yiiframework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /home/u32/www/libraries/yiiframework/web/CController.php(287): QrcodeController->runAction()
+#4 /home/u32/www/libraries/yiiframework/web/CController.php(266): QrcodeController->runActionWithFilters()
+#5 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): QrcodeController->run()
+#6 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController()
+#7 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /home/u32/www/yiitest/index.php(24): CWebApplication->run()
+REQUEST_URI=/qrcode/show
+2014/12/16 14:24:05 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[42000] [1049] Unknown database 'YiiTest'' in /home/u32/www/libraries/yiiframework/db/CDbConnection.php:382
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /home/u32/www/libraries/yiiframework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /home/u32/www/libraries/yiiframework/base/CModule.php(387): CDbConnection->init()
+#3 /home/u32/www/libraries/yiiframework/base/CModule.php(103): CModule->getComponent('db')
+#4 /home/u32/www/yiitest/protected/controllers/DbController.php(83): CModule->__get('db')
+#5 /home/u32/www/libraries/yiiframework/web/actions/CInlineAction.php(49): DbController->actionSqlInjection()
+#6 /home/u32/www/libraries/yiiframework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#7 /home/u32/www/libraries/yiiframework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#8 /home/u32/www/libraries/yiiframework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): CController->run('sqlInjection')
+#10 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('db/sqlInjection')
+#11 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#12 /home/u32/www/yiitest/index.php(24): CApplication->run()
+#13 {main}
+REQUEST_URI=/db/sqlInjection
+---
+2014/12/16 14:24:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/u32/www/libraries/yiiframework/web/CWebApplication.php:287
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u32/www/yiitest/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/12/16 14:24:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/u32/www/libraries/yiiframework/web/CWebApplication.php:287
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u32/www/yiitest/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/12/18 11:13:27 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'vragon_debug.UserMember' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `UserMember`.
+2014/12/18 11:13:27 [error] [exception.CDbException] exception 'CDbException' with message 'The table "UserMember" for active record class "UserMember" cannot be found in the database.' in /home/u32/www/libraries/yiiframework/db/ar/CActiveRecord.php:2362
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/db/ar/CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(UserMember))
+#1 /home/u32/www/libraries/yiiframework/db/ar/CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 /home/u32/www/yiitest/protected/controllers/DbController.php(108): CActiveRecord->__construct()
+#3 /home/u32/www/libraries/yiiframework/web/actions/CInlineAction.php(49): DbController->actionCreate()
+#4 /home/u32/www/libraries/yiiframework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /home/u32/www/libraries/yiiframework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#6 /home/u32/www/libraries/yiiframework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): CController->run('create')
+#8 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('db/create')
+#9 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /home/u32/www/yiitest/index.php(24): CApplication->run()
+#11 {main}
+REQUEST_URI=/db/create?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=14188723969461
+---
+2014/12/18 11:38:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/u32/www/libraries/yiiframework/web/CWebApplication.php:287
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u32/www/yiitest/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/12/18 11:38:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/u32/www/libraries/yiiframework/web/CWebApplication.php:287
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/u32/www/yiitest/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/12/18 15:37:29 [error] [exception.CException] exception 'CException' with message 'Property "CDbCommand.gett" is not defined.' in /home/u32/www/libraries/yiiframework/base/CComponent.php:130
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/db/ar/CActiveRecord.php(1095): CComponent->__get('gett')
+#1 /home/u32/www/libraries/yiiframework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /home/u32/www/yiitest/protected/models/UserMember.php(28): CActiveRecord->save()
+#3 /home/u32/www/yiitest/protected/controllers/DbController.php(115): UserMember->create(Array)
+#4 /home/u32/www/libraries/yiiframework/web/actions/CInlineAction.php(49): DbController->actionCreate()
+#5 /home/u32/www/libraries/yiiframework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#6 /home/u32/www/libraries/yiiframework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#7 /home/u32/www/libraries/yiiframework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): CController->run('create')
+#9 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('db/create')
+#10 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/u32/www/yiitest/index.php(24): CApplication->run()
+#12 {main}
+REQUEST_URI=/db/create
+---
+2014/12/18 15:40:10 [error] [exception.CException] exception 'CException' with message 'Property "UserMember.command" is not defined.' in /home/u32/www/libraries/yiiframework/base/CComponent.php:130
+Stack trace:
+#0 /home/u32/www/libraries/yiiframework/db/ar/CActiveRecord.php(145): CComponent->__get('command')
+#1 /home/u32/www/yiitest/protected/controllers/DbController.php(117): CActiveRecord->__get('command')
+#2 /home/u32/www/libraries/yiiframework/web/actions/CInlineAction.php(49): DbController->actionCreate()
+#3 /home/u32/www/libraries/yiiframework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /home/u32/www/libraries/yiiframework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /home/u32/www/libraries/yiiframework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(283): CController->run('create')
+#7 /home/u32/www/libraries/yiiframework/web/CWebApplication.php(142): CWebApplication->runController('db/create')
+#8 /home/u32/www/libraries/yiiframework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /home/u32/www/yiitest/index.php(24): CApplication->run()
+#10 {main}
+REQUEST_URI=/db/create
+---

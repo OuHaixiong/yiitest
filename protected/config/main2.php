@@ -46,7 +46,7 @@ return array(
 		// uncomment the following to use a MySQL database
 		
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=vragon_debug',
+			'connectionString' => 'mysql:host=localhost;dbname=YiiTest',
 			//'connectionString' => 'sqlite:protected/data/blog.db', //连接数据库的DSN字符串
 			'emulatePrepare' => true,
 			'username' => 'root',
@@ -61,8 +61,8 @@ return array(
 			//遇到错误时，运行的操作。控制器名和方法名均小写，并用斜线“/”隔开
 		),
 		'urlManager'=>array( //URL路由管理器
-			'urlFormat'=>'path', //URL格式。 共支持两种格式：'path'格式（如：/path/to/EntryScript.php/name1/value1/name2/value2...）和'get'格式（如: /path/to/EntryScript.php?name1=value1&name2=value2...）。当使用'path'格式时，需要设置如下的规则：
-			'showScriptName' => false, //<!-- 设为false时，隐藏index.php
+			//'urlFormat'=>'path', //URL格式。 共支持两种格式：'path'格式（如：/path/to/EntryScript.php/name1/value1/name2/value2...）和'get'格式（如: /path/to/EntryScript.php?name1=value1&name2=value2...）。当使用'path'格式时，需要设置如下的规则：
+			//'showScriptName' => false, //<!-- 设为false时，隐藏index.php
 			'rules'=>array(  //URL规则。语法：<参数名:正则表达式> 
 				'post/<id:\d+>/<title:.*?>'=>'post/view', //将post/12/helloword指向post/view?id=12&title=helloword
 				'posts/<tag:.*?>'=>'post/index',//将posts/hahahaha指向post/index?tag=hahahaha
