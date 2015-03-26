@@ -14,7 +14,8 @@ class GearmanController extends Controller
      */
     public function actionClient() {
         $client = new GearmanClient();
-        $client->addServer('192.168.17.130', 4730);
+        $boolean = $client->addServer('192.168.17.130', 4730);
+//         var_dump($boolean);exit;
         print_r($client->doNormal('title', 'Linve'));
     }
     

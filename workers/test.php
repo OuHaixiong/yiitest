@@ -1,9 +1,10 @@
-#!/usr/bin/php -q
+
 <?php
-//ignore_user_abort(true);
-//set_time_limit(0);
+//ignore_user_abort(true); // 后台运行
+//  #!/usr/bin/php -q
+set_time_limit(0); // 运行不超时(取消脚本运行时间的超时上限)
 $worker = new GearmanWorker();
-$worker->addServer('192.168.17.130', 4730);
+$boolean = $worker->addServer('192.168.17.130', 4730);
 $worker->addFunction('title', 'title_function');
 while($worker->work());
 // {
@@ -14,3 +15,7 @@ function title_function($job) {
     $str = $job->workload(); // 貌似只可以传一个参数 ，$data = unserialize($job->workload());
     return strlen($str);
 }
+
+// 可以通过如下命令让php在后端运行
+//nohup /usr/bin/php /home/u32/www/yiitest/workers/test.php &
+//通过 jobs -l 可以查看在后端运行的程序
