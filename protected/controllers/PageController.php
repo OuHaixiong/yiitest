@@ -83,14 +83,23 @@ class PageController extends Controller
      * 显示ajax请求
      */
     public function actionShow() {
+//     	var_dump($_SERVER['HTTP_REFERER']);exit;
         $this->render('ajax');
     }
     
     /**
-     * 测试
+     * 测试HTTP_REFERER，判断请求来源是否本网站
      */
     public function actionTest() {
-      
+        echo '<a href="' . $this->createUrl('/page/show') . '">链接到本网站的ajax页面</a><br />
+            <a href="http://wslm1.csc86.com/life/index.html">链接到外部网站的微生活页面</a><br />
+            <form method="post" action="' . $this->createUrl('/page/show') . '">
+            <input type="submit" value="post提交请求" />
+            </form>
+            <form method="post" action="http://wslm1.csc86.com/life/index.html">
+            <input type="text" name="t1" />
+            <input type="submit" value="表单post提交到外网" />
+            </form>';
     }
  
 }

@@ -46,7 +46,7 @@ return array(
 		// uncomment the following to use a MySQL database
 		
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=YiiTest',
+			'connectionString' => 'mysql:host=localhost;dbname=vragon_debug',
 			//'connectionString' => 'sqlite:protected/data/blog.db', //连接数据库的DSN字符串
 			'emulatePrepare' => true,
 			'username' => 'root',
@@ -76,13 +76,15 @@ return array(
 					'class'=>'CFileLogRoute',//处理错误信息的类
 					'levels'=>'error, warning',//错误等级
 				),
+					
 				// uncomment the following to show log messages on web pages
-				// 如要将错误记录消息在网页上显示，取消下面的注释即可
-				/*
+				// 如要将错误记录消息在网页上显示，取消下面的注释即可（下面显示页面日志）
 				array(
 					'class'=>'CWebLogRoute', // 我们将看到被执行的 SQL 语句被显示在每个页面的底部
+// 					'levels' => 'trace', // 级别为trace
+// 					'categories' => 'system.db.*' //只显示关于数据库信息,包括数据库连接,数据库执行语句
 				),
-				*/
+
 			),
 		),
 	),
