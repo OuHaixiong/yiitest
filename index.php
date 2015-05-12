@@ -15,6 +15,11 @@ $config = ROOT_PATH . '/protected/config/main.php';
 // 	$_GET['r'] = $argv[1];
 // }
 
+/* $include_path = get_include_path();
+$include_path .= PATH_SEPARATOR . CSC_LIBS_DIR . 'common/modules';
+$include_path .= PATH_SEPARATOR . CSC_LIBS_DIR . 'common/javamaps';
+set_include_path( $include_path ); 设置包含路径*/
+
 // remove the following line when in production mode
 defined('YII_DEBUG') or define('YII_DEBUG', true); // 打开这个就没有debug效果
 

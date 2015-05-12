@@ -1,0 +1,5 @@
+#
+# robots.txt for csc86
+#
+User-agent: * 
+Disallow: /protected
