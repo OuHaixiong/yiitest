@@ -55,11 +55,12 @@ return array(
 			//'tablePrefix' => 'tbl_', //数据表前缀
 		),
 
-		'errorHandler'=>array(
+		'errorHandler'=>array( // 错误页面设置
 			// use 'site/error' action to display errors
 			'errorAction'=>'site/error',// 使用SiteController控制器类中的actionError方法显示错误
 			//遇到错误时，运行的操作。控制器名和方法名均小写，并用斜线“/”隔开
 		),
+
 		'urlManager'=>array( //URL路由管理器
 			'urlFormat'=>'path', //URL格式。 共支持两种格式：'path'格式（如：/path/to/EntryScript.php/name1/value1/name2/value2...）和'get'格式（如: /path/to/EntryScript.php?name1=value1&name2=value2...）。当使用'path'格式时，需要设置如下的规则：
 			'showScriptName' => false, //<!-- 设为false时，隐藏index.php

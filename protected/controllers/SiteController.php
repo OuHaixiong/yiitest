@@ -29,14 +29,33 @@ class SiteController extends Controller
 	 */
 	public function actionError()
 	{
-	    $error=Yii::app()->errorHandler->error;
-// 	    var_dump($error);exit;
+	    $error = Yii::app()->errorHandler->error;
+// 	    var_dump($error);exit;  // 请求错误信息，是一个数组，如果是404会返回$error['code'] = 404;
 	    if($error)
 	    {
-	    	if(Yii::app()->request->isAjaxRequest)
+	    	if(Yii::app()->request->isAjaxRequest) {
 	    		echo $error['message'];
-	    	else
+	    	} else {
+	    	    //<!-- 这里可以获取用户的头信息，看是手机还是pc访问，对手机端调用不同的视图进行处理
+	    	    //<!-- 这里也可以判断错误代码，对404和500等信息进行处理
+	    	    
+	    	    /* $user_agent	= strtolower( Yii::app()->request->getUserAgent() );
+	    	    $file404	= CSC_TEMPLATE_DIR.'404.php';
+	    	    $file500	= CSC_TEMPLATE_DIR.'500.php';
+	    	    if (preg_match('/iphone|android|ipad|mobile/', $user_agent)) {
+	    	        $file404	= CSC_TEMPLATE_DIR.'404mobile.php';
+	    	        $file404	= file_exists($file404)? $file404 : CSC_TEMPLATE_DIR.'404.php';
+	    	        $file500	= CSC_TEMPLATE_DIR.'500mobile.php';
+	    	        $file500	= file_exists($file500)? $file500 : CSC_TEMPLATE_DIR.'500.php';
+	    	    }
+	    	    if(@$error['code']==404){
+	    	        $this->renderFile($file404);
+	    	    }else{
+	    	        $this->renderFile($file500);
+	    	    } */
+	    	    
 	        	$this->render('error', $error);
+	    	}
 	    }
 	}
 
