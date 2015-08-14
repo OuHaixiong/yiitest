@@ -105,8 +105,41 @@ class DbController extends Controller
      * 测试save 方法是否有防sql攻击
      */
     public function actionCreate() {
+//         $db = Yii::app()->db;
+        $sql = "SELECT a.id,a.memberid,a.title,a.price,a.speak,a.pic1,a.addtime FROM 
+		`csc_shop`.`csc_products_auth` as a	 inner join  `csc_shop`.`csc_product_hot` as h
+			on  h.`productid`=a.`id`
+				WHERE h.memberId='3acac9ae-436b-468b-99aa-bac5c6803e82' order by a.addtime desc limit 15
+        ";// order by a.addtime ASC
         
+        
+        $sql = "SELECT  	id,memberid,title,price,speak,pic1,addtime,updateTime
+		FROM csc_products P WHERE memberid='3acac9ae-436b-468b-99aa-bac5c6803e82'   
+		 AND ISDELETE = 'N' and checked='Y' ORDER BY UPDATETIME,addtime asc limit 10
+        ";
+//         $result = $db->createCommand($sql)->queryAll();
+//         Common_Tool::prePrint($result, false);
+        
+//         $pdo = new PDO('mysql:host=db2.csc86.com;dbname=csc_shop', 'yaorenquan', 'yrq869918', 
+//             array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES 'utf8'"));
+        
+//         $statement = $pdo->query($sql);
+//         $r = $statement->fetchAll(PDO::FETCH_ASSOC);
 
+        $link = new mysqli('db2.csc86.com', 'yaorenquan', 'yrq869918', 'csc_shop');
+        if ($link->connect_error) {
+            throw new Exception('Database connect Error(' . $this->_link->connect_errno . '):' . $this->_link->connect_error);
+        }
+        $link->set_charset('utf8');
+        $result = $link->query($sql);
+
+        $rows = array();
+        while (($row = $result->fetch_array(MYSQLI_ASSOC)) == true) {
+            $rows[] = $row;
+        }
+        
+        
+        Common_Tool::prePrint($rows, false);
         Common_Tool::prePrint(Yii::getPathOfAlias('webroot'), false);
     }
 

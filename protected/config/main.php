@@ -41,10 +41,8 @@ return array(
             'cachePath' => ROOT_PATH . '/data/cache/',
 //             'directoryLevel' => 2
         ),
-        
-	    
+
 		// uncomment the following to use a MySQL database
-		
 		'db'=>array(
 			'connectionString' => 'mysql:host=localhost;dbname=vragon_debug',
 			//'connectionString' => 'sqlite:protected/data/blog.db', //连接数据库的DSN字符串
@@ -54,7 +52,7 @@ return array(
 			'charset' => 'utf8',
 			//'tablePrefix' => 'tbl_', //数据表前缀
 		),
-
+	    
 		'errorHandler'=>array( // 错误页面设置
 			// use 'site/error' action to display errors
 			'errorAction'=>'site/error',// 使用SiteController控制器类中的actionError方法显示错误
