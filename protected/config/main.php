@@ -64,6 +64,7 @@ return array(
 			'showScriptName' => false, //<!-- 设为false时，隐藏index.php
 			'rules'=>array(  //URL规则。语法：<参数名:正则表达式> 
 				'post/<id:\d+>/<title:.*?>'=>'post/view', //将post/12/helloword指向post/view?id=12&title=helloword
+				'news/<id:([0-9a-z]{8}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{12}|\d+)>'=>'shop/tdetail', //将post/12/helloword指向post/view?id=12&title=helloword
 				'posts/<tag:.*?>'=>'post/index',//将posts/hahahaha指向post/index?tag=hahahaha
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
 			),

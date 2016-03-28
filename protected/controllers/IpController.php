@@ -17,4 +17,9 @@ class IpController extends Controller
         Common_Tool::prePrint(Common_Tool::getClientRealIp(), false);
         Common_Tool::prePrint(Common_Tool::getIp());
     }
+    
+    public function actionTest() {
+        
+    }
+    
 }
