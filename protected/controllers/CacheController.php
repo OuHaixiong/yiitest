@@ -12,13 +12,14 @@ class CacheController extends Controller
     /**
      * 片段缓存
      */
-    public function actionFragment() {
-    	if ($this->beginCache('abc', array('duration'=>3600))) :
-    	echo 'ABCdsaf我冻死了122333尼玛发';
-    	echo '<br />我也懂呀ko《br/>';
+    public function actionFragment() { // 片段缓存的路径详见配置:cache->cachePath
+        $boolean = $this->beginCache('abc', array('duration'=>60)); // 过期时间为60秒
+    	if ($boolean) :
+    	echo '这里是片段缓存的内容，如果时间没有过期，这里的内容就算变了，也无法更新';
+    	echo '<br />我也懂呀';
     	$this->endCache();
     	endif;
-    	echo 'wo che';
+    	echo '<br />这里是没有进缓存的内容。继续测试';
     }
 
     /**

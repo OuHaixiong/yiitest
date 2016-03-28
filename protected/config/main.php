@@ -37,9 +37,13 @@ return array(
 		), */
 
         'cache' => array(
-            'class' => 'system.caching.CFileCache',
-            'cachePath' => ROOT_PATH . '/data/cache/',
-//             'directoryLevel' => 2
+            'class' => 'system.caching.CFileCache', // 设置缓存class标识需要使用的缓存媒介，用途比较广的类型基本都有支持：
+                                                    // CMemCache: 使用 PHP memcache 扩展.
+                                                    // CApcCache: 使用 PHP APC 扩展.
+                                                    // CDbCache: 使用一张数据库表来存储缓存数据。
+                                                    // CFileCache: 使用文件来存储缓存数据。 特别适用于大块数据(例如页面)。
+            'cachePath' => ROOT_PATH . '/data/cache/', // 设置缓存文件的存放路径
+            'directoryLevel' => 3 // 设置缓存文件的目录深度；如果缓存页面特别多，这个值需要设置大点，否则每个目录下的页面会很多
         ),
 
 		// uncomment the following to use a MySQL database
