@@ -142,5 +142,20 @@ class DbController extends Controller
         Common_Tool::prePrint($rows, false);
         Common_Tool::prePrint(Yii::getPathOfAlias('webroot'), false);
     }
+    
+    /**
+     * 测试数据库类型
+     */
+    public function actionCriteriaFieldType() {
+        $criteria = new CDbCriteria();
+//         $criteria->compare('controller_id', 6);
+//         $criteria->compare('id', '1'); // 如果字段是整形数据类型，php中可以传入字符串和整形均可
+//         $criteria->compare('name', 11); // 如果字段是字符串型数据，php中传入了数字的话，会自动转为字符串
+        $criteria->compare('id', array(1, 2)); // compare如果后面是数组，相当于$criteria->addInCondition($column, $values)，即： SELECT * FROM "admin_action" "t" WHERE id IN (:ycp0, :ycp1)
+        $criteria->select = '*';
+//         $row = AdminAction::model()->find($criteria); // 返回CActiveRecord对象 ： object(AdminAction)
+        $rows = AdminAction::model()->findAll($criteria); // 返回array，每个成员是一个object(AdminAction)
+        var_dump($rows);
+    }
 
 }

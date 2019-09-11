@@ -47,15 +47,25 @@ return array(
         ),
 
 		// uncomment the following to use a MySQL database
-		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=vragon_debug',
-			//'connectionString' => 'sqlite:protected/data/blog.db', //连接数据库的DSN字符串
-			'emulatePrepare' => true,
-			'username' => 'root',
-			'password' => '123456',
-			'charset' => 'utf8',
-			//'tablePrefix' => 'tbl_', //数据表前缀
-		),
+// 		'db'=>array(
+// 			'connectionString' => 'mysql:host=localhost;dbname=vragon_debug',
+// 			//'connectionString' => 'sqlite:protected/data/blog.db', //连接数据库的DSN字符串
+// 			'emulatePrepare' => true,
+// 			'username' => 'root',
+// 			'password' => '123456',
+// 			'charset' => 'utf8',
+// 			//'tablePrefix' => 'tbl_', //数据表前缀
+// 		),
+
+	    'db'=>array(
+// 	        'class'            => 'DbConnection' ,
+	        'connectionString' => 'pgsql:host=192.168.0.100;dbname=testdb;port=5432',
+	        'username'=>'root',
+	        'password'=>'123456',
+	        'charset' => 'utf8',
+// 	        'timeout' => 10, //连接超时时间 (特别注意了，这个timeout是只读的，不能进行设置)
+// 	        'tablePrefix'=> 'tbl_',	//表的前缀
+	    ),
 	    
 		'errorHandler'=>array( // 错误页面设置
 			// use 'site/error' action to display errors
